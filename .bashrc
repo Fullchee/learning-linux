@@ -1,0 +1,11 @@
+alias 324='cd /mnt/c/Users/Fullchee/OneDrive/"3rd Year"/CSC324'
+alias 373='cd /mnt/c/Users/Fullchee/OneDrive/"3rd Year"/CSC373'
+alias 410='cd /mnt/c/Users/Fullchee/OneDrive/"3rd Year"/CSC410'
+alias 369='cd /mnt/c/Users/Fullchee/OneDrive/"3rd Year"/CSC369'
+alias 318='cd /mnt/c/Users/Fullchee/OneDrive/"3rd Year"/CSC318'
+alias 458='cd /mnt/c/Users/Fullchee/OneDrive/"3rd Year"/CSC458'
+alias 224='cd /mnt/c/Users/Fullchee/OneDrive/"3rd Year"/MAT224'
+alias 358='cd /mnt/c/Users/Fullchee/OneDrive/"3rd Year"/CSC358'
+alias 301='cd /mnt/c/Users/Fullchee/OneDrive/"3rd Year"/CSC301'
+alias 321='cd /mnt/c/Users/Fullchee/OneDrive/"3rd Year"/CSC321'
+
