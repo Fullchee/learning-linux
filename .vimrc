@@ -5,8 +5,9 @@
 
 
 " Step 1: Install Pathogen: https://github.com/tpope/vim-pathogen
-
+execute pathogen#infect()
 syntax on
+filetype plugin indent on
 
 " line numbers
 :set number 
@@ -18,3 +19,15 @@ syntax on
 " on by default, search the top after reaching the bottom
 :set wrapscan
 
+
+" TABS AND SPACES
+:set tabstop=4       "pressing tab moves 4 visual spaces
+:set softtabstop=4   "using 
+:set expandtab       "tabs are spaces
+
+set wildmenu        "when typing a command, press tab for visual autocomplete
+
+" MOVEMENT
+:set wrap           " word wrap
+nnoremap j gj       "if there is a long wrapped line, it will go up one 'line' visually
+nnoremap k gk
