@@ -26,8 +26,3 @@ set softtabstop=4   "using
 set expandtab       "tabs are spaces
 
 set wildmenu        "when typing a command, press tab for visual autocomplete
-
-" MOVEMENT
-set wrap           " word wrap
-nnoremap j gj       "if there is a long wrapped line, it will go up one 'line' visually
-nnoremap k gk
