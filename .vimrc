@@ -29,5 +29,15 @@ set wildmenu        "when typing a command, press tab for visual autocomplete
 
 " MOVEMENT
 :set wrap           " word wrap
-nnoremap j gj       "if there is a long wrapped line, it will go up one 'line' visually
+
+"if there is a long wrapped line, it will go up one 'line' visually
+nnoremap j gj
 nnoremap k gk
+vnoremap j gj
+vnoremap k gk
+nnoremap <Down> gj
+nnoremap <Up> gk
+vnoremap <Down> gj
+vnoremap <Up> gk
+inoremap <Down> <C-o>gj
+inoremap <Up> <C-o>gk
