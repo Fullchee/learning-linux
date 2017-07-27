@@ -1,9 +1,11 @@
 # New Linux Setup
 
 ### Programs to Install
-- chrome
-- visual studio code
-- terminator
+```bash
+sudo apt-get install terminator
+```
+
+Install google-chrome from website
 
 
 #### Firefox
