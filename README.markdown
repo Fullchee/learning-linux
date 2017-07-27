@@ -1,4 +1,4 @@
-# Things to do after intalling Linux
+# New Linux Setup
 
 ### Programs to Install
 - chrome
