@@ -2,6 +2,8 @@
 
 ### Programs to Install
 - chrome
+- visual studio code
+- terminator
 
 
 #### Firefox
