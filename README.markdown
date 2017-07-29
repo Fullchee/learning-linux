@@ -5,6 +5,8 @@
 sudo apt-get install terminator
 ```
 
+Both Chrome and Firefox should be synced to my accounts so I shouldn't have to do much
+
 Install google-chrome from website
 
 
@@ -19,7 +21,11 @@ and set it to false
 2) Download this firefox addon to remove Ctrl Q
 https://addons.mozilla.org/en-US/firefox/addon/disable-ctrl-q-shortcut/
 
-
+#### Linux Mint
+Disable global Linux Mint help when pressing F1
+```bash 
+sudo chmod -x /usr/local/bin/yelp
+```
 
 # New Windows Setup
 https://ninite.com/
