@@ -1,6 +1,4 @@
-# New Linux Setup
-
-# Universal Programs
+# Fully Cross-Platform Apps
 
 - Firefox
 - Chrome
