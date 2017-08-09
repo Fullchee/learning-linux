@@ -4,13 +4,11 @@
 
 - Firefox
 - Chrome
-
 - Sublime Text
 - Visual Studio Code
 - Python
 - Java
-- Other Dev needs
-
+- Node.js
 - Keepass2
 - Skype
 - VLC
