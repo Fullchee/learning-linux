@@ -7,6 +7,7 @@
 - BarTunes (on iTunes store)
 - z (image editor that's like paint, there could be better alternatives)
 - SourceTree (Atlassian git GUI for nice looking diffs)
+- zsh and prezto
 
 ### VPN Shortcut on the Menu Bar
 
