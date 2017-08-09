@@ -1,14 +1,30 @@
 # New Linux Setup
 
-### Programs to Install
+# Universal Programs
+
+- Firefox
+- Chrome
+
+- Sublime Text
+- Visual Studio Code
+- Python
+- Java
+- Other Dev needs
+
+- Keepass2
+- Skype
+- VLC
+
+
+### Programs to Install (Linux)
+- Terminator
+- zsh and prezto
+- Fullchee/cfg
+- some domain blocker
+
 ```bash
 sudo apt-get install terminator
 ```
-
-Both Chrome and Firefox should be synced to my accounts so I shouldn't have to do much
-
-Install google-chrome from website
-
 
 #### Firefox
 Remove the firefox middle button click on Ubuntu
