@@ -26,6 +26,3 @@ Disable global Linux Mint help when pressing F1
 ```bash 
 sudo chmod -x /usr/local/bin/yelp
 ```
-
-# New Windows Setup
-https://ninite.com/
