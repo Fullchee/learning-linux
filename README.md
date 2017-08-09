@@ -10,3 +10,5 @@
 - Keepass2
 - Skype
 - VLC
+
+Browser settings are synced and don't need to be documented.
