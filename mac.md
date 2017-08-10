@@ -9,6 +9,7 @@
 - SourceTree (Atlassian git GUI for nice looking diffs)
 - zsh and prezto
 - QuickSilver (free spotlight replacement that can run terminal commands)
+- Cheatsheet
 
 ```bash
 # Disable Spotlight
