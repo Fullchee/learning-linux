@@ -1,8 +1,11 @@
 ### Programs to Install (Linux)
 - Terminator
-- zsh and prezto
-- Fullchee/cfg
-- some domain blocker
+- Guake
+- zsh and prezto 
+- Fullchee/cfg (config files)
+- Albert (app launcher)
+- Calendar Indicator
+- Grub Customizer
 
 ```bash
 sudo apt-get install terminator
@@ -23,4 +26,13 @@ https://addons.mozilla.org/en-US/firefox/addon/disable-ctrl-q-shortcut/
 Disable global Linux Mint help when pressing F1
 ```bash 
 sudo chmod -x /usr/local/bin/yelp
+```
+
+#### Blocking websites
+```bash
+sudo vim /etc/hosts
+
+# add the line
+127.0.0.1 youtube.com
+127.0.0.1 www.youtube.com
 ```
