@@ -10,5 +10,8 @@
 - Keepass2
 - Skype
 - VLC
+- Keepass2 (or MacPass)
+- FileZilla (or other FTP file transfer program)
+- Git GUI (for pretty diffs)
 
 Browser settings are synced and don't need to be documented.
