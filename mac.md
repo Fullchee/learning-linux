@@ -42,3 +42,15 @@ alt-shift backspace
 cmd-shift-n: create a new folder
 ????: Create a new alias
 cmd-shift-g: Goto file (autocompleted)
+
+```bash
+# Install powerline-fonts
+git clone https://github.com/powerline/fonts.git --depth=1
+cd fonts
+./install.sh
+# clean-up a bit
+cd ..
+rm -rf fonts
+```
+
+Use Time Machine if you're switching macs. It's so simple!
