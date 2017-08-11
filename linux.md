@@ -1,4 +1,6 @@
-### Programs to Install (Linux)
+# TODO: Figure out how to sync prezto if you don't already have it installed
+
+### Programs for Linux to Install (Linux)
 - Terminator
 - Guake
 - zsh and prezto 
@@ -8,8 +10,34 @@
 - Grub Customizer
 
 ```bash
-sudo apt-get install terminator
+# change shell
+chsh -s /bin/zsh
+
+# adding repos
+add-apt-repository ppa:atareao/atareao
+sudo add-apt-repository ppa:nilarimogard/webupd8
+sudo add-apt-repository ppa:gnome-terminator/ppa
+sudo add-apt-repository ppa:danielrichter2007/grub-customizer
+sudo add-apt-repository ppa:webupd8team/unstable
+sudo add-apt-repository ppa:videolan/stable-daily
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
+
+sudo apt-get update
+
+# installing the repos
+sudo apt-get install calendar-indicator albert terminator grub-customizer guake vlc sublime-text-installer
+
+
+# install powerline-fonts
+git clone https://github.com/powerline/fonts.git --depth=1
+cd fonts
+./install.sh
+# clean-up a bit
+cd ..
+rm -rf fonts
 ```
+
+Everything else can be installed manually (see the main README.md)
 
 #### Firefox
 Remove the firefox middle button click on Ubuntu
