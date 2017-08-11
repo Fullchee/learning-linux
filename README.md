@@ -16,3 +16,9 @@
 - zsh & prezto (https://github.com/sorin-ionescu/prezto)
 - Powerline Fonts (https://github.com/powerline/fonts)
 Browser settings are synced and don't need to be documented.
+
+### Global Node Modules
+- trash-cli (avoid rm -rf, safer deletion)
+```bash
+npm install -g trash-cli
+```
