@@ -8,16 +8,7 @@
 - z (image editor that's like paint, there could be better alternatives)
 - SourceTree (Atlassian git GUI for nice looking diffs)
 - zsh and prezto
-- QuickSilver (free spotlight replacement that can run terminal commands)
 - Cheatsheet
-
-```bash
-# Disable Spotlight
-sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
-
-# Enable Spotlight
-sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
-```
 
 ### VPN Shortcut on the Menu Bar
 
