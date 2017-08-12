@@ -17,8 +17,8 @@
 - Powerline Fonts (https://github.com/powerline/fonts)
 Browser settings are synced and don't need to be documented.
 
-### Global Node Modules
-- trash-cli (avoid rm -rf, safer deletion)
+### Global Node Modules (after installing node)
+- trash-cli (avoid rm -rf, safer terminal deletion)
 ```bash
-npm install -g trash-cli
+npm install -g trash-cli eslint
 ```
