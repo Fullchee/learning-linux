@@ -3,6 +3,7 @@
 ### Dev
 - bash (Windows 10+)
 - Notepad++
+- Chocolatey (windows package manager)
 
 ### Utilities
 - Adobe Reader
