@@ -1,3 +1,6 @@
+### TODO: Try copying /home/my-username
+This will copy everything associated with that user
+
 # TODO: Figure out how to sync prezto if you don't already have it installed
 
 ### Programs for Linux to Install (Linux)
