@@ -1,5 +1,5 @@
-### TODO: Try copying /home/my-username
-This will copy everything associated with that user
+## Copy all user settings onto an other computer (like Time Machine)
+Create a tarball for /home/my-username and extract it on the same path
 
 # TODO: Figure out how to sync prezto if you don't already have it installed
 
