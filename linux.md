@@ -27,7 +27,8 @@ sudo apt-get update
 
 # installing the repos
 sudo apt-get install calendar-indicator albert terminator grub-customizer \
-guake vlc sublime-text-installer imagemagick ttyrec gcc x11-apps
+guake vlc sublime-text-installer imagemagick ttyrec gcc x11-apps \
+touchpad-indicator
 
 
 # install powerline-fonts
@@ -45,6 +46,9 @@ make
 sudo make install
 cd ..
 rm -rf ttygif
+
+# if you have a synaptics touchpad, you need this command for touchpad-indicator
+killall syndaemon  
 ```
 
 Everything else can be installed manually (see the main README.md)
