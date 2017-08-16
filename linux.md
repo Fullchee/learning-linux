@@ -38,6 +38,14 @@ cd fonts
 # clean-up a bit
 cd ..
 rm -rf fonts
+
+# install ttygif
+git clone https://github.com/icholy/ttygif.git
+cd ttygif
+make
+sudo make install
+cd ..
+rm -rf ttygif
 ```
 
 Everything else can be installed manually (see the main README.md)
