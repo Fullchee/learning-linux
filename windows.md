@@ -11,3 +11,4 @@
 - FileZilla
 - Malwarebytes
 - Paint.NET
+- Process Explorer (from Microsoft, to see which processes are using which files)
