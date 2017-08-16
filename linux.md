@@ -1,7 +1,5 @@
-## Copy all user settings onto an other computer (like Time Machine)
+## Copy all user settings onto an other computer
 Create a tarball for /home/my-username and extract it on the same path
-
-# TODO: Figure out how to sync prezto if you don't already have it installed
 
 ### Programs for Linux to Install (Linux)
 - Terminator
