@@ -28,7 +28,7 @@ sudo add-apt-repository ppa:webupd8team/sublime-text-3
 sudo apt-get update
 
 # installing the repos
-sudo apt-get install calendar-indicator albert terminator grub-customizer guake vlc sublime-text-installer
+sudo apt-get install calendar-indicator albert terminator grub-customizer guake vlc sublime-text-installer imagemagick ttyrec gcc x11-apps
 
 
 # install powerline-fonts
