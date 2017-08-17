@@ -34,6 +34,10 @@ cmd-shift-n: create a new folder
 ????: Create a new alias
 cmd-shift-g: Goto file (autocompleted)
 
+### iTerm alt b and alt f to move between buttons
+1. Preferences (cmd ,) -> Profiles -> Keys -> Left Option as Escape
+2. Change the Alt -> and Alt <- to "Send Escape Sequence" (esc+b and esc+f)
+
 ```bash
 # Install powerline-fonts
 git clone https://github.com/powerline/fonts.git --depth=1
