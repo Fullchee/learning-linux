@@ -21,5 +21,5 @@ Browser settings are synced and don't need to be documented.
 ### Global Node Modules (after installing node)
 - trash-cli (avoid rm -rf, safer terminal deletion)
 ```bash
-npm install -g trash-cli eslint jsdoc mocha npm-run-all
+npm install -g trash-cli eslint jsdoc mocha npm-run-all istanbul nyc
 ```
