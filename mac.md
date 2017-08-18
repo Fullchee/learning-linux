@@ -53,4 +53,15 @@ rm -rf fonts
 
 ### [App not being found by Spotlight?](https://apple.stackexchange.com/questions/236741/single-application-not-showing-up-in-spotlight)
 
+### Word: Change the Default/Normal Layout
+1. Select some text with your desired font & spacing 
+2. Cmd-d (opens Font) window
+3. Click the Advanced tab near the top
+4. Click `Default ...` on the bottom left
+
+### Word: Don't show start screen
+1. Open Preferences (cmd ,)
+2. Click the `General` button
+3. Untick `Show Word Document Gallery`
+
 Use Time Machine if you're switching macs. It's so simple!
