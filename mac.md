@@ -10,6 +10,8 @@
 - zsh and prezto
 - Cheatsheet
 
+### Moving macs: use time machine
+
 ### VPN Shortcut on the Menu Bar
 
 ```bash
@@ -64,4 +66,5 @@ rm -rf fonts
 2. Click the `General` button
 3. Untick `Show Word Document Gallery`
 
-Use Time Machine if you're switching macs. It's so simple!
+### Calendar won't sync
+Preferences -> Internet Accounts -> Untick and tick calendar
