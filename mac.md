@@ -38,6 +38,9 @@ cmd-shift-g: Goto file (autocompleted)
 1. Preferences (cmd ,) -> Profiles -> Keys -> Left Option as Escape
 2. Change the Alt -> and Alt <- to "Send Escape Sequence" (esc+b and esc+f)
 
+### Open files with VSC with `code` in the terminal
+`Cmd-Shift-P` and click on the command `Shell Command: Install 'code' command in PATH`
+
 ```bash
 # Install powerline-fonts
 git clone https://github.com/powerline/fonts.git --depth=1
