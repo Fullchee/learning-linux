@@ -51,4 +51,6 @@ cd ..
 rm -rf fonts
 ```
 
+### [App not being found by Spotlight?](https://apple.stackexchange.com/questions/236741/single-application-not-showing-up-in-spotlight)
+
 Use Time Machine if you're switching macs. It's so simple!
