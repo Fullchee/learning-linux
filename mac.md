@@ -68,3 +68,7 @@ rm -rf fonts
 
 ### Calendar won't sync
 Preferences -> Internet Accounts -> Untick and tick calendar
+
+### Open folders with an app in Finder (eg iTerm, VSC)
+1. Find the applescripts and create apps for them
+2. Hold cmd and drag and drop the app onto the area beside the search bar
