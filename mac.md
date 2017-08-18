@@ -70,5 +70,5 @@ rm -rf fonts
 Preferences -> Internet Accounts -> Untick and tick calendar
 
 ### Open folders with an app in Finder (eg iTerm, VSC)
-1. Find the applescripts and create apps for them
+1. Find the applescripts and create apps for them (won't be posted here, applescript & apps will update)
 2. Hold cmd and drag and drop the app onto the area beside the search bar
