@@ -9,6 +9,7 @@ Create a tarball for /home/my-username and extract it on the same path
 - Albert (app launcher)
 - Calendar Indicator
 - Grub Customizer
+- Tree (pretty print directory structure)
 
 ```bash
 # change shell
@@ -28,7 +29,7 @@ sudo apt-get update
 # installing the repos
 sudo apt-get install calendar-indicator albert terminator grub-customizer \
 guake vlc sublime-text-installer imagemagick ttyrec gcc x11-apps \
-touchpad-indicator
+touchpad-indicator tree
 
 
 # install powerline-fonts
