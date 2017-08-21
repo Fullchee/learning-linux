@@ -10,15 +10,29 @@
 - zsh and prezto
 - Cheatsheet
 
-### Moving macs: use time machine
-
-### VPN Shortcut on the Menu Bar
-
 ```bash
+# brew install
+brew install tree the_silver_surfer cask node cask
+
+# cask install
+brew cask install spectacle
+
+# VPN Shortcut on the Menu Bar
+# To remove it, hold CMD and drag the icon out of the menu bar
 defaults write com.apple.systemuiserver menuExtras -array-add "/System/Library/CoreServices/Menu Extras/vpn.menu"
 killall SystemUIServer -HUP
+
+# Install powerline-fonts
+git clone https://github.com/powerline/fonts.git --depth=1
+cd fonts
+./install.sh
+# clean-up a bit
+cd ..
+rm -rf fonts
 ```
-To remove it, hold CMD and drag the icon out of the menu bar
+
+### Moving macs: use time machine
+
 
 (TODO: put these into tables)
 ### Remote Connect to a server
@@ -42,16 +56,6 @@ cmd-shift-g: Goto file (autocompleted)
 
 ### Open files with VSC with `code` in the terminal
 `Cmd-Shift-P` and click on the command `Shell Command: Install 'code' command in PATH`
-
-```bash
-# Install powerline-fonts
-git clone https://github.com/powerline/fonts.git --depth=1
-cd fonts
-./install.sh
-# clean-up a bit
-cd ..
-rm -rf fonts
-```
 
 ### [App not being found by Spotlight?](https://apple.stackexchange.com/questions/236741/single-application-not-showing-up-in-spotlight)
 
