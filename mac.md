@@ -58,7 +58,10 @@ cmd-shift-g: Goto file (autocompleted)
 `Cmd-Shift-P` and click on the command `Shell Command: Install 'code' command in PATH`
 
 ### [App not being found by Spotlight?](https://apple.stackexchange.com/questions/236741/single-application-not-showing-up-in-spotlight)
+- add and remove whatever is not being found in Spotlight's list of directories it won't scan
 
+### Spotlight: Open the item's containing folder
+- cmd-enter
 ### Word: Change the Default/Normal Layout
 1. Select some text with your desired font & spacing 
 2. Cmd-d (opens Font) window
