@@ -31,10 +31,8 @@ cd ..
 rm -rf fonts
 ```
 
-### Moving macs: use time machine
+### Moving between macs: use time machine
 
-
-(TODO: put these into tables)
 ### Remote Connect to a server
 cmd-k
 
