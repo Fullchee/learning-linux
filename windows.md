@@ -18,7 +18,4 @@
     1. Create a new shortcut (Desktop -> right click -> New shortcut) with the command `explorer.exe <path to folder>`
     2. Change the icon (Right click shortcut -> Properties)
     3. Drag the shortcut to the taskbar
-2. Pin it (Drag and drop to the pinned section), or right click -> Pin Folder
-3. Favorite it (Right click Folder -> Favorite)
-    * it will be at the top of the menu when you right click the Explorer App on the taskbar
-4. Folder shortcut in the start menu
+2. Folder shortcut in the start menu
