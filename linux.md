@@ -23,13 +23,15 @@ sudo add-apt-repository ppa:danielrichter2007/grub-customizer
 sudo add-apt-repository ppa:webupd8team/unstable
 sudo add-apt-repository ppa:videolan/stable-daily
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
+sudo add-apt-repository ppa:numix/ppa
 
 sudo apt-get update
 
 # installing the repos
 sudo apt-get install calendar-indicator albert terminator grub-customizer \
 guake vlc sublime-text-installer imagemagick ttyrec gcc x11-apps \
-touchpad-indicator tree
+touchpad-indicator tree \
+numix-gtk-theme numix-icon-theme
 
 
 # install powerline-fonts
