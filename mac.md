@@ -17,7 +17,7 @@ brew update
 brew install tree the_silver_surfer cask node cask
 
 # cask install
-brew cask install spectacle qlmarkdown
+brew cask install spectacle qlmarkdown meld
 
 # VPN Shortcut on the Menu Bar
 # To remove it, hold CMD and drag the icon out of the menu bar
