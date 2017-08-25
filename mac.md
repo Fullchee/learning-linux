@@ -9,13 +9,15 @@
 - SourceTree (Atlassian git GUI for nice looking diffs)
 - zsh and prezto
 - Cheatsheet
+- Quick Look Markdown (preview Markdown in Finder)
 
 ```bash
+brew update
 # brew install
 brew install tree the_silver_surfer cask node cask
 
 # cask install
-brew cask install spectacle
+brew cask install spectacle qlmarkdown
 
 # VPN Shortcut on the Menu Bar
 # To remove it, hold CMD and drag the icon out of the menu bar
