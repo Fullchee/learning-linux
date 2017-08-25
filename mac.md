@@ -46,9 +46,13 @@ cmd-ctrl-shift-4 to put it in the buffer
 alt-shift backspace
 
 ### Finder
-cmd-shift-n: create a new folder
-????: Create a new alias
-cmd-shift-g: Goto file (autocompleted)
+- cmd-shift-n: create a new folder
+- cmd-L Create a new alias
+- cmd-shift-g: Goto file (autocompleted)
+- cmd-shift-.: toggle hidden files
+- `defaults write com.apple.finder _FXShowPosixPathInTitle -bool true`, `killall Finder`
+- View -> Show Path Bar
+
 
 ### iTerm alt b and alt f to move between buttons
 1. Preferences (cmd ,) -> Profiles -> Keys -> Left Option as Escape
