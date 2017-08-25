@@ -16,7 +16,7 @@
 - zsh & prezto (https://github.com/sorin-ionescu/prezto)
 - Powerline Fonts (https://github.com/powerline/fonts)
 - ttygif (recording the terminal into a gif)
-- Meld (diff tool)
+- Meld (GUI diff tool that can be CLI too)
 Browser settings are synced and don't need to be documented.
 
 ### Global Node Modules (after installing node)
