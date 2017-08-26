@@ -74,11 +74,8 @@ Disable global Linux Mint help when pressing F1
 sudo chmod -x /usr/local/bin/yelp
 ```
 
-#### Blocking websites
+#### Block a website script
 ```bash
-sudo vim /etc/hosts
-
-# add the line
-127.0.0.1 youtube.com
-127.0.0.1 www.youtube.com
+# redirects youtube to localhost
+echo "127.0.0.1 youtube.com\n127.0.0.1 www.youtube.com" | sudo tee -a /etc/hosts
 ```
