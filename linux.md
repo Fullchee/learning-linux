@@ -31,7 +31,8 @@ sudo apt-get update
 sudo apt-get install calendar-indicator albert terminator grub-customizer \
 guake vlc sublime-text-installer imagemagick ttyrec gcc x11-apps \
 touchpad-indicator tree \
-numix-gtk-theme numix-icon-theme
+numix-gtk-theme numix-icon-theme \
+redshift redshift-gtk
 
 
 # install powerline-fonts
