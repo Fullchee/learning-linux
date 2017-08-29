@@ -88,3 +88,6 @@ Preferences -> Internet Accounts -> Untick and tick calendar
 1. Turn off laptop
 2. Keep Power cable plugged in
 3. Hold Shift+Control+Option+Power
+
+### Only copy/paste the formatting
+cmd-alt-c and cmd-alt-v
