@@ -10,6 +10,7 @@ Create a tarball for /home/my-username and extract it on the same path
 - Calendar Indicator
 - Grub Customizer
 - Tree (pretty print directory structure)
+- xclip (copy cwd to clipboard)
 
 ```bash
 # change shell
@@ -32,7 +33,7 @@ sudo apt-get install calendar-indicator albert terminator grub-customizer \
 guake vlc sublime-text-installer imagemagick ttyrec gcc x11-apps \
 touchpad-indicator tree \
 numix-gtk-theme numix-icon-theme \
-redshift redshift-gtk
+redshift redshift-gtk xclip
 
 
 # install powerline-fonts
