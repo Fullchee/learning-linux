@@ -19,6 +19,7 @@
 - Meld (GUI diff tool that can be CLI too)
 Browser settings are synced and don't need to be documented.
 - yank (copy the cmd line output)
+- realpath (cmdline copying the path of a file)
 
 ### Global Node Modules (after installing node)
 - trash-cli (avoid rm -rf, safer terminal deletion)

@@ -10,12 +10,11 @@
 - zsh and prezto
 - Cheatsheet
 - Quick Look Markdown (preview Markdown in Finder)
-- Realpath (print the full path of a file)
 
 ```bash
 brew update
 # brew install
-brew install tree the_silver_surfer cask node cask yank
+brew install tree the_silver_surfer cask node cask yank coreutils
 
 # cask install
 brew cask install spectacle qlmarkdown meld
