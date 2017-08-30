@@ -18,6 +18,7 @@
 - ttygif (recording the terminal into a gif)
 - Meld (GUI diff tool that can be CLI too)
 Browser settings are synced and don't need to be documented.
+- yank (copy the cmd line output)
 
 ### Global Node Modules (after installing node)
 - trash-cli (avoid rm -rf, safer terminal deletion)
