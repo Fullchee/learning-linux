@@ -12,14 +12,16 @@
 - VLC
 - Keepass2 (or MacPass)
 - FileZilla (or other FTP file transfer program)
-- Git GUI (for pretty diffs)
+- any Git GUI (for pretty diffs)
+
+### Command Line
 - zsh & prezto (https://github.com/sorin-ionescu/prezto)
 - Powerline Fonts (https://github.com/powerline/fonts)
 - ttygif (recording the terminal into a gif)
 - Meld (GUI diff tool that can be CLI too)
-Browser settings are synced and don't need to be documented.
 - yank (copy the cmd line output)
 - realpath (cmdline copying the path of a file)
+- fzy (usage: "<cmd> | fzy" for fuzzy search)
 
 ### Global Node Modules (after installing node)
 - trash-cli (avoid rm -rf, safer terminal deletion)
