@@ -86,3 +86,8 @@ sudo chmod -x /usr/local/bin/yelp
 # redirects youtube to localhost
 echo "127.0.0.1 youtube.com\n127.0.0.1 www.youtube.com" | sudo tee -a /etc/hosts
 ```
+#### Gimp: crop a picture
+shift-c, draw the rectangle of the image you want to keep, press enter to delete everything else
+
+#### Toggle Maximize (not fullscreen)
+alt-f10
