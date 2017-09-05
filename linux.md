@@ -5,7 +5,7 @@ Create a tarball for /home/my-username and extract it on the same path
 - Terminator
 - Guake
 - zsh and prezto 
-- Fullchee/cfg (config files)
+- Fullchee/dotfiles (config files)
 - Albert (app launcher)
 - Calendar Indicator
 - Grub Customizer
