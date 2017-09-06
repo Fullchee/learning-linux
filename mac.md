@@ -31,6 +31,9 @@ cd fonts
 # clean-up a bit
 cd ..
 rm -rf fonts
+
+# Path at the top of finder
+defaults write com.apple.finder _FXShowPosixPathInTitle -bool true && killall Finder
 ```
 
 ### Moving between macs: use time machine
@@ -39,18 +42,17 @@ rm -rf fonts
 cmd-k
 
 ### Screenshot
-cmd-shift-4 to create a new image
-cmd-ctrl-shift-4 to put it in the buffer
+cmd-shift-4: screenshot in a timestamped new image on the desktop
+cmd-ctrl-shift-4: store screenshot in clipboard
 
 ### Chrome Disable autocomplete in omnibox
 alt-shift backspace
 
-### Finder
+### Finder Shortcuts
 - cmd-shift-n: create a new folder
 - cmd-L Create a new alias
 - cmd-shift-g: Goto file (autocompleted)
 - cmd-shift-.: toggle hidden files
-- `defaults write com.apple.finder _FXShowPosixPathInTitle -bool true`, `killall Finder`
 - View -> Show Path Bar
 
 
@@ -89,5 +91,5 @@ Preferences -> Internet Accounts -> Untick and tick calendar
 2. Keep Power cable plugged in
 3. Hold Shift+Control+Option+Power
 
-### Only copy/paste the formatting
+### Only copy/paste the formatting (very useful in Notes, especially for strikethrough)
 cmd-alt-c and cmd-alt-v
