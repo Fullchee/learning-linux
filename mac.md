@@ -91,5 +91,5 @@ Preferences -> Internet Accounts -> Untick and tick calendar
 2. Keep Power cable plugged in
 3. Hold Shift+Control+Option+Power
 
-### Only copy/paste the formatting (very useful in Notes, especially for strikethrough)
+### Only copy/paste the formatting (useful in Notes, Google Drive, not Word, especially for strikethrough)
 cmd-alt-c and cmd-alt-v
