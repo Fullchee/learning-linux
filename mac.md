@@ -93,3 +93,7 @@ Preferences -> Internet Accounts -> Untick and tick calendar
 
 ### Only copy/paste the formatting (useful in Notes, Google Drive, not Word, especially for strikethrough)
 cmd-alt-c and cmd-alt-v
+
+### Change default app for file extension
+1. Right click a file with that extension to "Get Info"
+2. Near the bottom, in "Open with", change the app and press "Change All..."
