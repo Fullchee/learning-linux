@@ -13,20 +13,22 @@
 - Keepass2 (or MacPass)
 - FileZilla (or other FTP file transfer program)
 - any Git GUI (for pretty diffs)
+- Meld (GUI diff tool that can be CLI too)
 
 ### Command Line
 - zsh & prezto (https://github.com/sorin-ionescu/prezto)
 - Powerline Fonts (https://github.com/powerline/fonts)
 - ttygif (recording the terminal into a gif)
-- Meld (GUI diff tool that can be CLI too)
 - yank (copy the cmd line output)
 - realpath (cmdline copying the path of a file)
 - fzy (usage: "<cmd> | fzy" for fuzzy search)
+- ag (silver surfer, better grep)
+- markdown-toc (generate table of contents for MD)
 
 ### Global Node Modules (after installing node)
 - trash-cli (avoid rm -rf, safer terminal deletion)
 ```bash
-# overall
+# general
 npm install -g trash-cli markdown-toc
 
 # js
