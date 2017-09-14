@@ -24,6 +24,7 @@
 - fzy (usage: "<cmd> | fzy" for fuzzy search)
 - ag (silver surfer, better grep)
 - markdown-toc (generate table of contents for MD)
+- lnav (log navigator, lightweight syntax highlighting to read log files better)
 
 ### Global Node Modules (after installing node)
 - trash-cli (avoid rm -rf, safer terminal deletion)
