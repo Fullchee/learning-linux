@@ -30,7 +30,7 @@
 - trash-cli (avoid rm -rf, safer terminal deletion)
 ```bash
 # general
-npm install -g trash-cli markdown-toc
+npm install -g trash-cli markdown-toc write-good
 
 # js
 npm install -g eslint jsdoc mocha npm-run-all istanbul nyc
