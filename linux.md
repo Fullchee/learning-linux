@@ -26,7 +26,7 @@ sudo add-apt-repository ppa:danielrichter2007/grub-customizer
 sudo add-apt-repository ppa:webupd8team/unstable
 sudo add-apt-repository ppa:videolan/stable-daily
 sudo add-apt-repository ppa:numix/ppa
-sudo add-apt-repository ppa:noobslab/apps # playonlinux
+sudo add-apt-repository ppa:noobslab/apps
 
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
