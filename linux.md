@@ -25,17 +25,20 @@ sudo add-apt-repository ppa:gnome-terminator/ppa
 sudo add-apt-repository ppa:danielrichter2007/grub-customizer
 sudo add-apt-repository ppa:webupd8team/unstable
 sudo add-apt-repository ppa:videolan/stable-daily
-sudo add-apt-repository ppa:webupd8team/sublime-text-3
 sudo add-apt-repository ppa:numix/ppa
+sudo add-apt-repository ppa:noobslab/apps # playonlinux
+
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 
 sudo apt-get update
 
 # installing the repos
 sudo apt-get install calendar-indicator albert terminator grub-customizer \
-guake vlc sublime-text-installer imagemagick ttyrec gcc x11-apps \
+guake vlc sublime-text imagemagick ttyrec gcc x11-apps \
 touchpad-indicator tree \
 numix-gtk-theme numix-icon-theme \
-redshift redshift-gtk xclip workrave realpath yank
+redshift redshift-gtk xclip workrave realpath yank playonlinux
 
 
 # install powerline-fonts
