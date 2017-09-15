@@ -34,6 +34,8 @@ npm install -g trash-cli markdown-toc
 
 # js
 npm install -g eslint jsdoc mocha npm-run-all istanbul nyc
+
+sudo pip3 install asciinema ipython
 ```
 
 ### Drag and Drop Shortcuts
