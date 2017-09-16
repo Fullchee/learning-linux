@@ -6,7 +6,7 @@ Create a tarball for /home/my-username and extract it on the same path
 - Guake
 - zsh and prezto 
 - Fullchee/dotfiles (config files)
-- Albert (app launcher)
+- App Launcher (Synapse or Albert)
 - Calendar Indicator
 - Grub Customizer
 - Tree (pretty print directory structure)
@@ -34,7 +34,7 @@ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sou
 sudo apt-get update
 
 # installing the repos
-sudo apt-get install calendar-indicator albert terminator grub-customizer \
+sudo apt-get install calendar-indicator albert synapse terminator grub-customizer \
 guake vlc sublime-text imagemagick ttyrec gcc x11-apps \
 touchpad-indicator tree \
 numix-gtk-theme numix-icon-theme \
