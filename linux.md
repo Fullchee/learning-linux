@@ -38,7 +38,8 @@ sudo apt-get install calendar-indicator albert terminator grub-customizer \
 guake vlc sublime-text imagemagick ttyrec gcc x11-apps \
 touchpad-indicator tree \
 numix-gtk-theme numix-icon-theme \
-redshift redshift-gtk xclip workrave realpath yank xterm wine playonlinux
+redshift redshift-gtk xclip workrave realpath yank xterm wine playonlinux \
+silversearcher-ag
 
 
 # install powerline-fonts
