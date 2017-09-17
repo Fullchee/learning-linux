@@ -37,11 +37,3 @@ npm install -g eslint jsdoc mocha npm-run-all istanbul nyc
 
 sudo pip3 install asciinema ipython
 ```
-
-### Drag and Drop Shortcuts
-- **Copy the File**
-    - Windows/Linux: ctrl-drag/drop
-    - Mac: alt-drag/drop
-- **Create an alias**
-    - Windows/Linux: alt-drag/drop
-    - Mac: cmd-alt-drag/drop
