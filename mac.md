@@ -55,6 +55,16 @@ alt-shift backspace
 - cmd-shift-.: toggle hidden files
 - View -> Show Path Bar
 
+#### Open folders with an app in Finder (eg iTerm, VSC)
+1. Find the applescripts and create apps for them (won't be posted here, applescript & apps will update)
+2. Hold cmd and drag and drop the app onto the area beside the search bar
+
+#### Create a "Copy Path" service for Finder (Credit to OSX Daily: http://osxdaily.com/2013/06/19/copy-file-folder-path-mac-os-x/)
+1. Launch Automator and create a new “Service”
+2. Use the search function to look for “Copy to Clipboard” and drag that into the rightside panel of the Service
+3. Set ‘Service recieves selected’ to “files or folders” and ‘in’ to “Finder” as shown in the screen shot below
+4. Save the Service with a name like “Copy Path”
+
 
 ### iTerm alt b and alt f to move between buttons
 1. Preferences (cmd ,) -> Profiles -> Keys -> Left Option as Escape
@@ -81,10 +91,6 @@ alt-shift backspace
 
 ### Calendar won't sync
 Preferences -> Internet Accounts -> Untick and tick calendar
-
-### Open folders with an app in Finder (eg iTerm, VSC)
-1. Find the applescripts and create apps for them (won't be posted here, applescript & apps will update)
-2. Hold cmd and drag and drop the app onto the area beside the search bar
 
 ### Reset SMC (System Management Controller, hardware settings)
 1. Turn off laptop
