@@ -95,3 +95,6 @@ shift-c, draw the rectangle of the image you want to keep, press enter to delete
 
 #### Toggle Maximize (not fullscreen)
 alt-f10
+
+Put all executable files into `~/opt` from now on to mimic the Linux FS standard
+https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard
