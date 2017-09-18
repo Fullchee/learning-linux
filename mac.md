@@ -1,15 +1,17 @@
 ### Programs to install (mac only)
-- Homebrew
-- Spectacle (shortcuts for window sizing)
-- MacPass
-- Google Drive for Mac
-- iTerm2
-- BarTunes (on iTunes store)
-- z (image editor that's like paint, there could be better alternatives)
-- SourceTree (Atlassian git GUI for nice looking diffs)
-- zsh and prezto
+- BarTunes (App store): menu bar shortcuts for iTunes
+- Monosnap (App Store: nice annotations for screenshots)
+- Red Hot Timer (App Store)
+
 - Cheatsheet
+- Google Drive for Mac
+- Homebrew
+- iTerm2
+- MacPass
 - Quick Look Markdown (preview Markdown in Finder)
+- SourceTree (Atlassian git GUI for nice looking diffs)
+- Spectacle (shortcuts for window sizing)
+- zsh and prezto
 
 ```bash
 brew update
