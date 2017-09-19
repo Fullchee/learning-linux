@@ -1,7 +1,5 @@
 ### Programs to install (mac only)
 - BarTunes (App store): menu bar shortcuts for iTunes
-- Monosnap (App Store: nice annotations for screenshots)
-- Red Hot Timer (App Store)
 
 - Cheatsheet
 - Google Drive for Mac
