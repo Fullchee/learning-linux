@@ -14,6 +14,7 @@
 - FileZilla (or other FTP file transfer program)
 - any Git GUI (for pretty diffs)
 - Meld (GUI diff tool that can be CLI too)
+- Screenshot app (Mac: Monosnap, Windows: Snipping Tool (built-in), Linux: Shutter)
 
 ### Command Line
 - zsh & prezto (https://github.com/sorin-ionescu/prezto)
