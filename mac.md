@@ -103,3 +103,6 @@ cmd-alt-c and cmd-alt-v
 ### Change default app for file extension
 1. Right click a file with that extension to "Get Info"
 2. Near the bottom, in "Open with", change the app and press "Change All..."
+
+### Hide apps (Finder, iTunes, Mail) from the cmd-tab menu
+https://apple.stackexchange.com/questions/92004/is-there-a-way-to-hide-certain-apps-from-the-cmdtab-menu
