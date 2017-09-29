@@ -7,6 +7,8 @@ chrome://settings/searchEngines?search=search+engines
 - wolf (wolframAlpha.com)
 - wiki (https://en.wikipedia.org/wiki/Special:Search/%s)
 - you (https://www.youtube.com/results?search_query=%s&page={startPage?}&utm_source=opensearch)
+- settings (chrome://settings/searchEngines?search=%s)
+- translate (https://translate.google.com/#en/zh-CN/%s)
 
 ## Specialized Search Engines
 - https://www.npmjs.com/package/%s
