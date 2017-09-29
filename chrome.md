@@ -25,6 +25,7 @@ chrome://settings/searchEngines?search=search+engines
 - Tab for a Cause
 - [Node.js V8 --inspector Manager (NiM)](https://chrome.google.com/webstore/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj)
 - any Ad Blocker
+  - ###hot-network-questions (block stack exchange distractions)
 - FocusTube
 - Google Keep 
   - the app as well
