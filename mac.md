@@ -39,7 +39,8 @@ defaults write com.apple.finder _FXShowPosixPathInTitle -bool true && killall Fi
 ### Moving between macs: use time machine
 
 ### Remote Connect to a server
-cmd-k
+1. Open Finder
+2. cmd-k
 
 ### Screenshot
 cmd-shift-4: screenshot in a timestamped new image on the desktop
