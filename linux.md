@@ -7,7 +7,6 @@ Create a tarball for /home/my-username and extract it on the same path
 - zsh and prezto 
 - Fullchee/dotfiles (config files)
 - App Launcher (Synapse or Albert)
-- Calendar Indicator
 - Grub Customizer
 - Tree (pretty print directory structure)
 - xclip (copy cwd to clipboard)
