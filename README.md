@@ -15,6 +15,7 @@
 - any Git GUI (for pretty diffs)
 - Meld (GUI diff tool that can be CLI too)
 - Screenshot app (Mac: Monosnap, Windows: Snipping Tool (built-in), Linux: Shutter)
+- WYSIWYG Markdown Editor (Typora)
 
 ### Command Line
 - zsh & prezto (https://github.com/sorin-ionescu/prezto)
