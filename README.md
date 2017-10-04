@@ -7,7 +7,6 @@
 - Python
 - Java
 - Node.js
-- Keepass2
 - Skype
 - VLC
 - Keepass2 (or MacPass)
