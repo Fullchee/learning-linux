@@ -2,8 +2,8 @@
 
 - Firefox
 - Chrome
-- Sublime Text
-- Visual Studio Code (set terminal to zsh)
+- Sublime Text (Sync Settings)
+- Visual Studio Code (Setting Sync)
 - Python
 - Java
 - Node.js
