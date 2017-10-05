@@ -4,6 +4,12 @@ Create a tarball for /home/my-username and extract it on the same path
 
 ## Manual Stuff
 
+### To be automated
+* install Todoist
+
+### Linux Mint
+* Install the cinnamon applets: Pomodoro, Weather
+
 #### Firefox
 Remove the firefox middle button click on Ubuntu
 

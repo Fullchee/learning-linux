@@ -27,7 +27,8 @@ sudo apt-get -y --force-yes upgrade
 
 # installing the programs
 sudo apt-get install gcc \
-google-chrome-stable
+google-chrome-stable \
+gnome-shell-pomodoro \
 grub-customizer \
 guake \
 imagemagick \
