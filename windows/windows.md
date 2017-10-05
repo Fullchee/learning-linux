@@ -1,6 +1,7 @@
-# Nice to have
+### How to get my IP Address (command line)
+`ipconfig`
 
-## Folder Shortcuts
+### Folder Shortcuts
 1. Folder Shortcut to the Taskbar
     1. Create a new shortcut (Desktop -> right click -> New shortcut) with the command `explorer.exe <path to folder>`
     2. Change the icon (Right click shortcut -> Properties)
