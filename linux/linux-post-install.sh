@@ -26,7 +26,7 @@ sudo apt-get -y --force-yes update
 sudo apt-get -y --force-yes upgrade
 
 # installing the programs
-sudo apt-get install gcc \
+sudo apt-get -y install gcc \
 google-chrome-stable \
 gnome-shell-pomodoro \
 grub-customizer \
