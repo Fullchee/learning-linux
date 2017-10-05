@@ -71,9 +71,6 @@ for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
   ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
 done
 
-chsh -s /bin/zsh
-
-
 # install my dotfiles after installing prezto
 git clone --bare https://github.com/Fullchee/cfg.git $HOME/.cfg
 config config --local status.showUntrackedFiles no
@@ -85,3 +82,6 @@ PREFIX=$HOME make -C ~/fasd
 sudo chmod -x /usr/local/bin/yelp
 
 npm install -g trash-cli
+
+# change shell last
+chsh -s /bin/zsh
