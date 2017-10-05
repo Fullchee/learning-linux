@@ -89,3 +89,5 @@ config config --local status.showUntrackedFiles no
 
 # Disable global Linux Mint help when pressing F1
 sudo chmod -x /usr/local/bin/yelp
+
+npm install -g trash-cli
