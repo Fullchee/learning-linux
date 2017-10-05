@@ -66,8 +66,13 @@ alt-shift backspace
 3. Set ‘Service recieves selected’ to “files or folders” and ‘in’ to “Finder” as shown in the screen shot below
 4. Save the Service with a name like “Copy Path”
 
-### Full Keyboard Access
+### Keyboard
+#### Full Keyboard Access
 System Preferences -> Keyboard -> Shortcuts (tab) -> All Controls (bottom of menu)
+
+#### Keyboard Shortcuts
+Disable
+* Make New Sticky Note
 
 ### iTerm alt b and alt f to move between buttons
 1. Preferences (cmd ,) -> Profiles -> Keys -> Left Option as Escape
