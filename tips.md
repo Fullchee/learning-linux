@@ -6,7 +6,8 @@
     - Windows/Linux: alt-drag/drop
     - Mac: cmd-alt-drag/drop
 
- Copy to clipboard
+Copy to clipboard
+
 | Shortcut   | Linux  | Windows | Mac                    |
 |------------|--------|---------|------------------------|
 | Max Window | alt-10 |         | spectacle: cmd alt f10 |
