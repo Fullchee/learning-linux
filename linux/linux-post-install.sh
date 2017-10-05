@@ -49,6 +49,7 @@ workrave \
 xclip \
 xterm \
 yank \
+zip
 
 
 # install powerline-fonts
