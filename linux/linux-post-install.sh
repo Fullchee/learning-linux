@@ -31,7 +31,6 @@ google-chrome-stable \
 gnome-shell-pomodoro \
 grub-customizer \
 guake \
-imagemagick \
 numix-gtk-theme \
 numix-icon-theme \
 playonlinux \
@@ -44,11 +43,9 @@ synapse \
 terminator \
 touchpad-indicator \
 tree \
-ttyrec \
 vlc \
 wine \
 workrave \
-x11-apps \
 xclip \
 xterm \
 yank \
@@ -61,14 +58,6 @@ cd fonts
 # clean-up a bit
 cd ..
 rm -rf fonts
-
-# install ttygif
-git clone https://github.com/icholy/ttygif.git
-cd ttygif
-make
-sudo make install
-cd ..
-rm -rf ttygif
 
 # if you have a synaptics touchpad, you need this command for touchpad-indicator
 killall syndaemon
