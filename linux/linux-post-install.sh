@@ -88,6 +88,9 @@ chsh -s /bin/zsh
 git clone --bare https://github.com/Fullchee/cfg.git $HOME/.cfg
 config config --local status.showUntrackedFiles no
 
+# install fasd from dotfiles
+PREFIX=$HOME make -C ~/fasd
+
 # Disable global Linux Mint help when pressing F1
 sudo chmod -x /usr/local/bin/yelp
 
