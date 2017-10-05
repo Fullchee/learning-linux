@@ -5,8 +5,8 @@
 - **Create an alias**
     - Windows/Linux: alt-drag/drop
     - Mac: cmd-alt-drag/drop
-    
-Snap Windows
 
-| Shortcut | Linux | Windows | Mac |
-| Maximize Windows | alt f10 | | (spectacle: cmd alt f) |
+ Copy to clipboard
+| Shortcut   | Linux  | Windows | Mac                    |
+|------------|--------|---------|------------------------|
+| Max Window | alt-10 |         | spectacle: cmd alt f10 |
