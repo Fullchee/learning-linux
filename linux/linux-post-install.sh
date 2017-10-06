@@ -12,6 +12,7 @@ sudo add-apt-repository -y ppa:webupd8team/unstable
 sudo add-apt-repository -y ppa:videolan/stable-daily
 sudo add-apt-repository -y ppa:numix/ppa
 sudo add-apt-repository -y ppa:noobslab/apps
+sudo add-apt-repository -y ppa:alessandro-strada/ppa
 
 # sublime text
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
@@ -28,6 +29,7 @@ sudo apt-get -y --force-yes upgrade
 # installing the programs
 sudo apt-get -y install gcc \
 google-chrome-stable \
+google-drive-ocamlfuse \
 gnome-shell-pomodoro \
 grub-customizer \
 guake \
