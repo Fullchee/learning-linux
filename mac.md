@@ -117,3 +117,6 @@ https://apple.stackexchange.com/questions/92004/is-there-a-way-to-hide-certain-a
 
 ### Safari
 Show the entire URL (somewhere in the settings)
+
+### Educational
+* keycastr
