@@ -7,3 +7,6 @@
     2. Change the icon (Right click shortcut -> Properties)
     3. Drag the shortcut to the taskbar
 2. Folder shortcut in the start menu
+
+### Connect to other computers on the same network
+`\\<computer name>\<path>`
