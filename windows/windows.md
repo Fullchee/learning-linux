@@ -10,3 +10,6 @@
 
 ### Connect to other computers on the same network
 `\\<computer name>\<path>`
+
+### Open File Explorer from cmd
+`start .`
