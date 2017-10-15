@@ -87,3 +87,6 @@ npm install -g trash-cli
 
 # change shell last
 chsh -s /bin/zsh
+
+# disable the insert button
+xmodmap -e "keycode 118 ="
