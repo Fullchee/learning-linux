@@ -13,3 +13,6 @@
 
 ### Open File Explorer from cmd
 `start .`
+
+### Make ls an alias of dir
+`doskey ls=dir`
