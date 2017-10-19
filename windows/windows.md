@@ -9,7 +9,7 @@
 2. Folder shortcut in the start menu
 
 ### Connect to other computers on the same network
-`\\<computer name>\<path>`
+File Explorer: Type the following in the path: `\\<any computer IP Address>\<path>`
 
 ### Open File Explorer from cmd
 `start <path>`
