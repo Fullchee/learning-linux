@@ -16,3 +16,9 @@
 
 ### Make ls an alias of dir
 `doskey ls=dir`
+
+### Connect to a networked Windows Computer from mac
+**GUI**: Microsoft Remote Desktop (from App Store)
+**command line**: 
+1. Finder: Cmd-k and connect to the Windows instance.
+2. Terminal: The Windows file system is accessible from the directory: `/Volumes/`
