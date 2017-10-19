@@ -12,7 +12,9 @@
 `\\<computer name>\<path>`
 
 ### Open File Explorer from cmd
-`start .`
+`start <path>`
+
+For Example: `start .`
 
 ### Make ls an alias of dir
 `doskey ls=dir`
