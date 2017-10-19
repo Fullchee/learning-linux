@@ -56,6 +56,9 @@ alt-shift backspace
 - cmd-shift-.: toggle hidden files
 - View -> Show Path Bar
 
+#### Finder Search file type
+Type `kind:doc` to only select .doc types
+
 #### Open folders with an app in Finder (eg iTerm, VSC)
 1. Find the applescripts and create apps for them (won't be posted here, applescript & apps will update)
 2. Hold cmd and drag and drop the app onto the area beside the search bar
@@ -117,6 +120,3 @@ https://apple.stackexchange.com/questions/92004/is-there-a-way-to-hide-certain-a
 
 ### Safari
 Show the entire URL (somewhere in the settings)
-
-### Educational
-* keycastr
