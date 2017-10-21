@@ -6,10 +6,13 @@ Create a tarball for /home/my-username and extract it on the same path
 
 ### To be automated
 * install Todoist
+  * The executable is from nodewebkit, not trivial
+  * might have better luck just cloning the repo, not really worth it
+ 
 
 ### Linux Mint
 * Cinnamon applets: Pomodoro, Weather
-* `Ctrl Print screen`: Copies the entire 
+* `Ctrl Print screen`: Copies the entire desktop and puts it in the clipboard
 
 ### Keyboard Shortcuts
 * Print screen, `shutter -C -s-o shutter -s -C -o '~/Pictures/screenshots/%y-%m-%d_%T'`
