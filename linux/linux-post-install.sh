@@ -13,6 +13,7 @@ sudo add-apt-repository -y ppa:videolan/stable-daily
 sudo add-apt-repository -y ppa:numix/ppa
 sudo add-apt-repository -y ppa:noobslab/apps
 sudo add-apt-repository -y ppa:alessandro-strada/ppa
+sudo add-apt-repository -y ppa:shutter/ppa
 
 # sublime text
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
@@ -40,6 +41,7 @@ realpath \
 redshift \
 redshift-gtk \
 silversearcher-ag \
+shutter libgoo-canvas-perl \
 sublime-text \
 synapse \
 terminator \
