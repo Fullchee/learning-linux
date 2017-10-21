@@ -8,7 +8,12 @@ Create a tarball for /home/my-username and extract it on the same path
 * install Todoist
 
 ### Linux Mint
-* Install the cinnamon applets: Pomodoro, Weather
+* Cinnamon applets: Pomodoro, Weather
+* `Ctrl Print screen`: Copies the entire 
+
+### Keyboard Shortcuts
+* Print screen, `shutter -C -s-o shutter -s -C -o '~/Pictures/screenshots/%y-%m-%d_%T'`
+  * `mkdir ~/Pictures/screenshots` to ensure the directory exists
 
 #### Firefox
 Remove the firefox middle button click on Ubuntu
