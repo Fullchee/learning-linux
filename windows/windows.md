@@ -24,3 +24,10 @@ For Example: `start .`
 **command line**: 
 1. Finder: Cmd-k and connect to the Windows instance.
 2. Terminal: The Windows file system is accessible from the directory: `/Volumes/`
+
+### View the command that created a process
+1. Task Manager (Ctrl-shift-esc)
+2. Go to the processes tab
+3. Right click and click details
+4. Show Columns
+5. Command line
