@@ -31,3 +31,10 @@ For Example: `start .`
 3. Right click and click details
 4. Show Columns
 5. Command line
+
+
+## Batch Files
+**Comment/Remark**: `REM this line is a comment`
+`@ECHO OFF`: don't print the actual commands that are run, just the output of those commands
+**variables in a batch file**: `Set <var-name>=<var-value>`
+
