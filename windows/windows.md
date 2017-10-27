@@ -18,6 +18,7 @@ For Example: `start .`
 
 ### Make ls an alias of dir
 `doskey ls=dir`
+this won't necessarily work!
 
 ### Connect to a networked Windows Computer from mac
 **GUI**: Microsoft Remote Desktop (from App Store)
