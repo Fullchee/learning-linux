@@ -1,6 +1,3 @@
-### How to get my IP Address (command line)
-`ipconfig`
-
 ### Folder Shortcuts
 1. Folder Shortcut to the Taskbar
     1. Create a new shortcut (Desktop -> right click -> New shortcut) with the command `explorer.exe <path to folder>`
@@ -11,14 +8,21 @@
 ### Connect to other computers on the same network
 File Explorer: Type the following in the path: `\\<any computer IP Address>\<path>`
 
+## Command Line
+### How to get my IP Address (command line)
+`ipconfig`
+
+### How to redirect the output to a file
+`<cmd> > stderrAndOut.log 2>&1`
+
+## Batch Files
+**Comment/Remark**: `REM this line is a comment`
+`@ECHO OFF`: don't print the actual commands that are run, just the output of those commands
+**variables in a batch file**: `Set <var-name>=<var-value>`
+
+
 ### Open File Explorer from cmd
 `start <path>`
-
-For Example: `start .`
-
-### Make ls an alias of dir
-`doskey ls=dir`
-this won't necessarily work!
 
 ### Connect to a networked Windows Computer from mac
 **GUI**: Microsoft Remote Desktop (from App Store)
@@ -32,10 +36,3 @@ this won't necessarily work!
 3. Right click and click details
 4. Show Columns
 5. Command line
-
-
-## Batch Files
-**Comment/Remark**: `REM this line is a comment`
-`@ECHO OFF`: don't print the actual commands that are run, just the output of those commands
-**variables in a batch file**: `Set <var-name>=<var-value>`
-
