@@ -10,6 +10,7 @@
 - SourceTree (Atlassian git GUI for nice looking diffs)
 - Spectacle (shortcuts for window sizing)
 - zsh and prezto
+- Karabiner (swap control with fn)
 
 ```bash
 brew update
