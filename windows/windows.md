@@ -43,6 +43,7 @@ File Explorer: Type the following in the path: `\\<any computer IP Address>\<pat
 
 ### Open File Explorer from cmd
 `start <path>`
+- start is similar to the `open` command on UNIX, can open/start files and folders, opens with the default program
 
 ### How to get my IP Address (command line)
 `ipconfig`
