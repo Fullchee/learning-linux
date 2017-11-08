@@ -1,3 +1,5 @@
+## Installation
+
 ## To be automated
 ### Dot files
 
@@ -13,6 +15,11 @@
 - path to python
 - path to an `aliases` folder of batch files (to mimic a UNIX terminal workflow)
 
+- Notepad Replacer
+- assign a program to open all files with an extension: `Control Panel -> Programs -> Default Programs -> Associate a file type or protocol with a program`
+    - avoid accidentally double clicking on batch files (.bat)
+    - forces me to only call batch files using a terminal
+
 
 ## File Explorer
 #### Folder Shortcuts
@@ -22,6 +29,7 @@
     3. Drag the shortcut to the taskbar
 2. Folder shortcut in the start menu
 
+## Usage
 ### Connect to a networked Windows Computer from mac
 **GUI**: Microsoft Remote Desktop (from App Store)
 **command line**: 
@@ -32,14 +40,16 @@
 File Explorer: Type the following in the path: `\\<any computer IP Address>\<path>`
 
 ## Command Line
+
+### Open File Explorer from cmd
+`start <path>`
+
 ### How to get my IP Address (command line)
 `ipconfig`
 
 ### How to redirect the output to a file
 `<cmd> > stderrAndOut.log 2>&1`
-
-### Open File Explorer from cmd
-`start <path>`
+- the same syntax as UNIX!
 
 ### Cmder: how to turn off git (faster in large git repos)
 https://github.com/cmderdev/cmder/issues/447#issuecomment-244149494
@@ -49,6 +59,8 @@ https://github.com/cmderdev/cmder/issues/447#issuecomment-244149494
 `@ECHO OFF`: don't print the actual commands that are run, just the output of those commands
 - usually the first line of a batch file
 **variables in a batch file**: `Set <var-name>=<var-value>`
+
+`pause`: Prints the prompt `Press any key to continue ...` and waits until a key is pressed.
 
 
 ### View the command that created a process
