@@ -50,7 +50,8 @@ File Explorer: Type the following in the path: `\\<any computer IP Address>\<pat
 
 ### How to redirect the output to a file
 `<cmd> > stderrAndOut.log 2>&1`
-- the same syntax as UNIX!
+- similar syntax as UNIX!
+- you have to put the file in between the `>` and the `2>&1`
 
 ### Cmder: how to turn off git (faster in large git repos)
 https://github.com/cmderdev/cmder/issues/447#issuecomment-244149494
