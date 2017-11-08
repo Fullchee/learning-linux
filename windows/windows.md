@@ -36,3 +36,6 @@ File Explorer: Type the following in the path: `\\<any computer IP Address>\<pat
 3. Right click and click details
 4. Show Columns
 5. Command line
+
+### Cmder: how to turn off git (faster in large git repos)
+https://github.com/cmderdev/cmder/issues/447#issuecomment-244149494
