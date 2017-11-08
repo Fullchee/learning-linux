@@ -55,6 +55,13 @@ File Explorer: Type the following in the path: `\\<any computer IP Address>\<pat
 ### Cmder: how to turn off git (faster in large git repos)
 https://github.com/cmderdev/cmder/issues/447#issuecomment-244149494
 
+### Servies
+- delete a service: `sc delete <service_name>` (not the service display name)
+    - see the services (control panel), double click the service to get the service name
+- `sc stop <service_name>`
+- `sc start <service_name>`
+
+(note: use `sc` over `net`, sc is newer (but still older than me) and has more options)
 ## Batch Files
 **Comment/Remark**: `REM this line is a comment`
 `@ECHO OFF`: don't print the actual commands that are run, just the output of those commands
@@ -62,7 +69,6 @@ https://github.com/cmderdev/cmder/issues/447#issuecomment-244149494
 **variables in a batch file**: `Set <var-name>=<var-value>`
 
 `pause`: Prints the prompt `Press any key to continue ...` and waits until a key is pressed.
-
 
 ### View the command that created a process
 1. Task Manager (Ctrl-shift-esc)
