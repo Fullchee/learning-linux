@@ -77,3 +77,10 @@ https://github.com/cmderdev/cmder/issues/447#issuecomment-244149494
 3. Right click and click details
 4. Show Columns
 5. Command line
+
+
+### Keyboard/BIOS
+Change the keyboard to use the function keys instead of multi-media functionas
+1. Restart the computer
+2. Open the BIOS
+3. Dell: In the Advanced Tab, change the `Function Key Behaviour` option
