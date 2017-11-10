@@ -71,6 +71,16 @@ https://github.com/cmderdev/cmder/issues/447#issuecomment-244149494
 
 `pause`: Prints the prompt `Press any key to continue ...` and waits until a key is pressed.
 
+```batch
+@echo off
+for /f "tokens=2 delims==" %%a in ('wmic OS Get localdatetime /value') do set "dt=%%a"
+set "YY=%dt:~2,2%" & set "YYYY=%dt:~0,4%" & set "MM=%dt:~4,2%" & set "DD=%dt:~6,2%"
+set "HH=%dt:~8,2%" & set "Min=%dt:~10,2%" & set "Sec=%dt:~12,2%"
+
+set "fullstamp=%YYYY%-%MM%-%DD%_%HH%-%Min%-%Sec%"
+echo fullstamp: "%fullstamp%"
+```
+
 ### View the command that created a process
 1. Task Manager (Ctrl-shift-esc)
 2. Go to the processes tab
