@@ -72,6 +72,13 @@ https://github.com/cmderdev/cmder/issues/447#issuecomment-244149494
 
 `pause`: Prints the prompt `Press any key to continue ...` and waits until a key is pressed.
 
+### Debugging Batch Files
+**Error**: `path specified not found` after running a batch file
+1. Comment out the `@echo off` to see what commands are actually running
+2. add a `pause` at the end of the script to see exactly which command failed.
+- this error is really misleading, makes you make some false assumptions
+
+### Get a timestamp
 ```batch
 @echo off
 for /f "tokens=2 delims==" %%a in ('wmic OS Get localdatetime /value') do set "dt=%%a"
