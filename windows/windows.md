@@ -4,7 +4,7 @@
 ### Dot files
 
 
-### Add to the path (NOTE: add to `Path`, not just `PATH`
+### Add to the path (NOTE: add to `Path` the system variable, not just `PATH`, the user variable)
 - there two environment variables with the name `path`
 ```batch
 
