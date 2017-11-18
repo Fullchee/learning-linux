@@ -15,7 +15,7 @@
 ```bash
 brew update
 # brew install
-brew install tree the_silver_surfer cask node cask yank coreutils fzy
+brew install tree the_silver_surfer cask node cask yank coreutils ffmpeg youtube-dl
 
 # cask install
 brew cask install spectacle qlmarkdown meld
