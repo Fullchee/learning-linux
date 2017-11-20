@@ -10,11 +10,12 @@
 - SourceTree (Atlassian git GUI for nice looking diffs)
 - Spectacle (shortcuts for window sizing)
 - zsh and prezto
+- Karabiner (swap control with fn)
 
 ```bash
 brew update
 # brew install
-brew install tree the_silver_surfer cask node cask yank coreutils fzy
+brew install tree the_silver_surfer cask node cask yank coreutils ffmpeg youtube-dl
 
 # cask install
 brew cask install spectacle qlmarkdown meld
@@ -55,6 +56,7 @@ alt-shift backspace
 - cmd-shift-g: Goto file (autocompleted)
 - cmd-shift-.: toggle hidden files
 - View -> Show Path Bar
+- alt cmd space to open up finder
 
 #### Finder Search file type
 Type `kind:doc` to only select .doc types
@@ -69,17 +71,21 @@ Type `kind:doc` to only select .doc types
 3. Set ‘Service recieves selected’ to “files or folders” and ‘in’ to “Finder” as shown in the screen shot below
 4. Save the Service with a name like “Copy Path”
 
-### Keyboard
-#### Full Keyboard Access
-System Preferences -> Keyboard -> Shortcuts (tab) -> All Controls (bottom of menu)
+### Keyboard Settings
+- **Use tab to navigate any menu**: System Preferences -> Keyboard -> Shortcuts (tab) -> All Controls (bottom of menu)
+- **Disable ctrl up/down/left/right** (in Mission Control)
+  - these shortcuts can just be activated with the touchpad gesture, you need the mouse anyway to quickly switch
+  - can also now use these shortcuts on for text editors and other programs, especially via Remote Desktop connection to Windows
+- **disable the make new sticky note**
 
-#### Keyboard Shortcuts
-Disable
-* Make New Sticky Note
-
-### iTerm alt b and alt f to move between buttons
-1. Preferences (cmd ,) -> Profiles -> Keys -> Left Option as Escape
-2. Change the Alt -> and Alt <- to "Send Escape Sequence" (esc+b and esc+f)
+### iTerm
+- alt -> and <- to move a word at a time (Linux uses the super/meta key)
+  1. Preferences (cmd ,) -> Profiles -> Keys -> Left Option as Escape
+  2. Change the Alt -> and Alt <- to "Send Escape Sequence" (esc+b and esc+f)
+- shortcut to toggle iTerm: Preferences -> Keys tab -> Hotkey section
+- cmd-g: find next search result (instead of pressing enter), can also do cmd-shift-g to search forward in time
+- http://teohm.com/blog/working-effectively-with-iterm2/
+- cmd /: show where the cursor is
 
 ### Open files with VSC with `code` in the terminal
 `Cmd-Shift-P` and click on the command `Shell Command: Install 'code' command in PATH`
