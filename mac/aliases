@@ -3,26 +3,24 @@
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME' $@
 alias configpull='git stash && git pull && git stash pop'
 alias sz="source ~/.zshrc"
+alias aliases="subl /Users/keyan/Documents/git_repo/new-installation-tips/mac/aliases"
 
 # -------------------- Mac-only ------------------
-# sometimes pasting doesn't work,
-#  sometimes resetting the pboard avoids a computer reset
-cmdv () {
-	launchctl stop com.apple.pboard
-	launchctl start com.apple.pboard
-}
-
 alias chrome="open -a \"Google Chrome\""
 alias cpcwd="pwd | tr -d '\n' | pbcopy"
 alias subl="/Users/keyan/bin/subl"
 alias pwords='open "/Users/keyan/Google Drive/What Kind of DB is this2.kdbx"'
 alias o="open"
+alias O="o"
 
 # ---------------- Cross Platform ---------------
+# debug any node program
 debugnode () {
     node --inspect=9229 --debug-brk "$1" 28688 1
 }
 
+# open a vim program at the bottom
+# easier than 1. opening, 2. pressing shift-g, 3. holding e and then pressing enter to make a new line
 vimend () {
     vim '+normal Go' $1
 }
@@ -41,4 +39,10 @@ alias vsc="code"
 mkcd () {
   mkdir "$1"
   cd "$1"
+}
+
+alias dropmongo="mongo --quiet --eval 'db.getMongo().getDBNames().forEach(function(name){if(name!==\'local\'&&name!==\'admin\'){db.getSiblingDB(name).dropDatabase()}})'"
+
+function youtubemp3() {
+	youtube-dl --extract-audio --prefer-ffmpeg --audio-format mp3 -o "%(title)s.%(ext)s" "$1"
 }
