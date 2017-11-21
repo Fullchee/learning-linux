@@ -34,3 +34,6 @@ chrome://settings/searchEngines?search=search+engines
   - right click on the app -> "Create Shortcut"
 - Your Quality for YouTube
   - Default playback quality for YouTube videos not on YouTube.com (eg Udacity or edX)
+
+While debugging: my console isn't responsive (typing stuff and getting no response)
+- solution: Press F1 and deselect and reselect `Enable JavaScript Source Maps`
