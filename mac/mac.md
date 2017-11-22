@@ -114,6 +114,10 @@ Preferences -> Internet Accounts -> Untick and tick calendar
 2. Keep Power cable plugged in
 3. Hold Shift+Control+Option+Power
 
+### Force Quit a program
+- cmd-alt-escape, then force quit the program you'd like
+- otherwise, to kill the process, `ps aux | grep <process name>` and then kill it, like Linux
+
 ### Only copy/paste the formatting (useful in Notes, Google Drive, not Word, especially for strikethrough)
 cmd-alt-c and cmd-alt-v
 
