@@ -3,13 +3,13 @@
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME' $@
 alias configpull='git stash && git pull && git stash pop'
 alias sz="source ~/.zshrc"
-alias aliases="subl /Users/keyan/Documents/git_repo/new-installation-tips/mac/aliases"
+alias aliases="subl ~/Documents/git_repo/new-installation-tips/mac/aliases"
 
 # -------------------- Mac-only ------------------
 alias chrome="open -a \"Google Chrome\""
 alias cpcwd="pwd | tr -d '\n' | pbcopy"
-alias subl="/Users/keyan/bin/subl"
-alias pwords='open "/Users/keyan/Google Drive/What Kind of DB is this2.kdbx"'
+alias subl="~/bin/subl"
+alias pwords='open "~/Google Drive/What Kind of DB is this2.kdbx"'
 alias o="open"
 alias O="o"
 
