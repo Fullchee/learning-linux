@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Exec=/home/fancyferret/opt/Todoist/Todoist
+Icon=/home/fancyferret/opt/Todoist/todoist_logo.png
+Type=Application
+Terminal=false
+Comment=Todoist
+Name=Todoist
+GenericName=todoist
+StartupNotify=false
+Categories=Organization;todo
