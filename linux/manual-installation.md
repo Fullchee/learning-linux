@@ -1,0 +1,2 @@
+- whale (trello unofficial app)
+- todoist (unofficial app)
