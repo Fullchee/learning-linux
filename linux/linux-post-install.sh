@@ -85,7 +85,7 @@ PREFIX=$HOME make -C ~/fasd
 # Disable global Linux Mint help when pressing F1
 sudo chmod -x /usr/local/bin/yelp
 
-npm install -g trash-cli
+npm install -g trash-cli tldr
 
 # change shell last
 chsh -s /bin/zsh

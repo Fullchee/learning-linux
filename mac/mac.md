@@ -1,51 +1,15 @@
-### Programs to install (mac only)
-- BarTunes (App store): menu bar shortcuts for iTunes
+### Moving between macs
 
-- Cheatsheet
-- Google Drive for Mac
-- Homebrew
-- iTerm2
-- MacPass
-- Quick Look Markdown (preview Markdown in Finder)
-- SourceTree (Atlassian git GUI for nice looking diffs)
-- Spectacle (shortcuts for window sizing)
-- zsh and prezto
-- Karabiner (swap control with fn)
-
-```bash
-brew update
-# brew install
-brew install tree the_silver_surfer cask node cask yank coreutils ffmpeg youtube-dl
-
-# cask install
-brew cask install spectacle qlmarkdown meld
-
-# VPN Shortcut on the Menu Bar
-# To remove it, hold CMD and drag the icon out of the menu bar
-defaults write com.apple.systemuiserver menuExtras -array-add "/System/Library/CoreServices/Menu Extras/vpn.menu"
-killall SystemUIServer -HUP
-
-# Install powerline-fonts
-git clone https://github.com/powerline/fonts.git --depth=1
-cd fonts
-./install.sh
-# clean-up a bit
-cd ..
-rm -rf fonts
-
-# Path at the top of finder
-defaults write com.apple.finder _FXShowPosixPathInTitle -bool true && killall Finder
-```
-
-### Moving between macs: use time machine
+- use time machine
 
 ### Remote Connect to a server
 1. Open Finder
 2. cmd-k
 
 ### Screenshot
-cmd-shift-4: screenshot in a timestamped new image on the desktop
-cmd-ctrl-shift-4: store screenshot in clipboard
+- cmd-shift-4: screenshot in a timestamped new image on the desktop
+- cmd-ctrl-shift-4: store screenshot in clipboard
+- with MonoSpace: `cmd alt 5`
 
 ### Chrome Disable autocomplete in omnibox
 alt-shift backspace
@@ -87,9 +51,6 @@ Type `kind:doc` to only select .doc types
 - http://teohm.com/blog/working-effectively-with-iterm2/
 - cmd /: show where the cursor is
 
-### Open files with VSC with `code` in the terminal
-`Cmd-Shift-P` and click on the command `Shell Command: Install 'code' command in PATH`
-
 ### [App not being found by Spotlight?](https://apple.stackexchange.com/questions/236741/single-application-not-showing-up-in-spotlight)
 - add and remove whatever is not being found in Spotlight's list of directories it won't scan
 
@@ -127,15 +88,3 @@ cmd-alt-c and cmd-alt-v
 
 ### Hide apps (Finder, iTunes, Mail) from the cmd-tab menu
 https://apple.stackexchange.com/questions/92004/is-there-a-way-to-hide-certain-apps-from-the-cmdtab-menu
-
-### Safari
-Show the entire URL (somewhere in the settings)
-
-### Use x-code FileMerge as the 
-```sh
-# Tell system when Xcode utilities live:
-sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer
-
-# Set "opendiff" as the default mergetool globally:
-git config --global merge.tool opendiff
-```
