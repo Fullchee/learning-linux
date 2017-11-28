@@ -40,6 +40,7 @@ playonlinux \
 realpath \
 redshift \
 redshift-gtk \
+ruby-all-dev \
 silversearcher-ag \
 shutter libgoo-canvas-perl \
 sublime-text \
