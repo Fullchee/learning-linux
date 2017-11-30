@@ -12,6 +12,12 @@ alias subl="~/bin/subl"
 alias pwords='open "~/Google Drive/What Kind of DB is this2.kdbx"'
 alias o="open"
 alias O="o"
+function breaks() {
+	sudo shutdown -s 12:30;
+	sudo shutdown -s 13:00;
+	sudo shutdown -s 17:30;
+	sudo shutdown -s 18:00;
+}
 
 # ---------------- Cross Platform ---------------
 # debug any node program
