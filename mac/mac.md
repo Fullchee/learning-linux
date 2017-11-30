@@ -88,3 +88,6 @@ cmd-alt-c and cmd-alt-v
 
 ### Hide apps (Finder, iTunes, Mail) from the cmd-tab menu
 https://apple.stackexchange.com/questions/92004/is-there-a-way-to-hide-certain-apps-from-the-cmdtab-menu
+
+### Chrome: avoid cmd q:
+- Menu bar -> Chrome -> Warn before Qutting
