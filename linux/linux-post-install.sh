@@ -14,6 +14,9 @@ sudo add-apt-repository -y ppa:numix/ppa
 sudo add-apt-repository -y ppa:noobslab/apps
 sudo add-apt-repository -y ppa:alessandro-strada/ppa
 sudo add-apt-repository -y ppa:shutter/ppa
+sudo add-apt-repository ppa:peek-developers/stable
+
+
 
 # sublime text
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
@@ -36,6 +39,7 @@ grub-customizer \
 guake \
 numix-gtk-theme \
 numix-icon-theme \
+peek \
 playonlinux \
 realpath \
 redshift \
