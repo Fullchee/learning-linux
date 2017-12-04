@@ -41,6 +41,8 @@ Type `kind:doc` to only select .doc types
   - these shortcuts can just be activated with the touchpad gesture, you need the mouse anyway to quickly switch
   - can also now use these shortcuts on for text editors and other programs, especially via Remote Desktop connection to Windows
 - **disable the make new sticky note**
+- disable the global ctrl-1 and ctrl-2 (System Preferences -> Keyboard -> Shortcuts -> Mission Control)
+  - the sublime shortcuts can be used (switch between panels)
 
 ### iTerm
 - alt -> and <- to move a word at a time (Linux uses the super/meta key)
