@@ -19,6 +19,8 @@ function breaks() {
 	sudo shutdown -s 18:00;
 }
 
+alias rmbreaks="sudo pkill shutdown"
+
 # ---------------- Cross Platform ---------------
 # debug any node program
 debugnode () {
