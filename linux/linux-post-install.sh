@@ -91,7 +91,7 @@ PREFIX=$HOME make -C ~/fasd
 sudo chmod -x /usr/local/bin/yelp
 
 # note: for fkill, you may have to run sudo fkill
-npm install -g trash-cli tldr jsinspect eslint fkill-cli pipeable-js trymodule
+npm install -g trash-cli tldr jsinspect eslint fkill-cli trymodule
 
 # change shell last
 chsh -s /bin/zsh
