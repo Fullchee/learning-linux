@@ -84,15 +84,11 @@ done
 git clone --bare https://github.com/Fullchee/cfg.git $HOME/.cfg
 config config --local status.showUntrackedFiles no
 
-# install fasd from dotfiles
-PREFIX=$HOME make -C ~/fasd
-
 # Disable global Linux Mint help when pressing F1
 sudo chmod -x /usr/local/bin/yelp
 
 
 # install nvm and node
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
 nvm install --lts
 
 # note: for fkill, you may have to run sudo fkill
