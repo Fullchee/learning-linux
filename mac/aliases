@@ -56,3 +56,9 @@ function youtubemp3() {
 }
 
 alias ipaddr="ifconfig | grep inet"
+
+function backup() {
+	git init;
+	git add .;
+	git commit -m "Initial commit";
+}
