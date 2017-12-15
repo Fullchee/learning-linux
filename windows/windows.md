@@ -4,7 +4,7 @@
 ### Dot files
 
 
-### Add to the path (NOTE: add to `Path` the system variable, not just `PATH`, the user variable)
+### path (NOTE: add to `Path` the system variable, not just `PATH`, the user variable)
 - there two environment variables with the name `path`
 ```batch
 
@@ -20,7 +20,6 @@
 - assign a program to open all files with an extension: `Control Panel -> Programs -> Default Programs -> Associate a file type or protocol with a program`
     - avoid accidentally double clicking on batch files (.bat)
     - forces me to only call batch files using a terminal
-
 
 ## File Explorer
 #### Folder Shortcuts
