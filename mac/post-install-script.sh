@@ -25,7 +25,7 @@ rm -rf fonts
 # Path at the top of finder
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool true && killall Finder
 
-npm install -g trash-cli tldr jsinspect eslint fkill-cli pipeable-js trymodule
+npm install -g trash-cli tldr jsinspect eslint fkill-cli trymodule browsersync
 
 # Tell system when Xcode utilities live:
 sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer
