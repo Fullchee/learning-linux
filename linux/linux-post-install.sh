@@ -99,3 +99,6 @@ chsh -s /bin/zsh
 
 # disable the insert button
 xmodmap -e "keycode 118 ="
+
+# install screenkey
+git -C ~/opt clone https://github.com/wavexx/screenkey.git
