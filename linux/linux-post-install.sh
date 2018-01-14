@@ -37,6 +37,7 @@ google-drive-ocamlfuse \
 gnome-shell-pomodoro \
 grub-customizer \
 guake \
+nodejs build-essential \
 numix-gtk-theme \
 numix-icon-theme \
 peek \
@@ -86,10 +87,6 @@ config config --local status.showUntrackedFiles no
 
 # Disable global Linux Mint help when pressing F1
 sudo chmod -x /usr/local/bin/yelp
-
-
-# install nvm and node
-nvm install --lts
 
 # note: for fkill, you may have to run sudo fkill
 npm install -g trash-cli tldr jsinspect eslint fkill-cli trymodule browsersync
