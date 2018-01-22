@@ -30,6 +30,10 @@ echo 'deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main' | sud
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 
+# heroku
+sudo add-apt-repository "deb https://cli-assets.heroku.com/branches/stable/apt ./"
+curl -L https://cli-assets.heroku.com/apt/release.key | sudo apt-key add -
+
 sudo apt-get -y --force-yes update
 sudo apt-get -y --force-yes upgrade
 
@@ -40,6 +44,7 @@ google-drive-ocamlfuse \
 gnome-shell-pomodoro \
 grub-customizer \
 guake \
+heroku \
 nodejs build-essential \
 numix-gtk-theme \
 numix-icon-theme \
