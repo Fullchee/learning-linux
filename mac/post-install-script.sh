@@ -4,10 +4,22 @@
 
 brew update
 # brew install
-brew install tree the_silver_surfer cask node cask yank coreutils ffmpeg youtube-dl
+brew install \
+cask \
+coreutils \
+ffmpeg \
+node \
+pandoc \
+the_silver_surfer \
+tree \
+yank \
+youtube-dl;
 
 # cask install
-brew cask install spectacle qlmarkdown meld
+brew cask install \
+meld \
+qlmarkdown \
+spectacle;
 
 # VPN Shortcut on the Menu Bar
 # To remove it, hold CMD and drag the icon out of the menu bar

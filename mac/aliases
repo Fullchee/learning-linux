@@ -63,3 +63,11 @@ function backup() {
 	git add .;
 	git commit -m "Initial commit";
 }
+
+function md2word() {
+	if [ -z "$1" ] ; then
+		echo 'Usage: md2word src dest' 
+		return
+	fi
+	pandoc -o "$1" -f markdown -t docx "$2"
+}

@@ -48,6 +48,7 @@ heroku \
 nodejs build-essential \
 numix-gtk-theme \
 numix-icon-theme \
+pandoc \
 peek \
 playonlinux \
 realpath \
