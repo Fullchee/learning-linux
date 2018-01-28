@@ -45,6 +45,7 @@ gnome-shell-pomodoro \
 grub-customizer \
 guake \
 heroku \
+jpegoptim \
 nodejs build-essential \
 numix-gtk-theme \
 numix-icon-theme \
