@@ -110,3 +110,6 @@ https://apple.stackexchange.com/questions/92004/is-there-a-way-to-hide-certain-a
 - spectacle
 - Tomighty
 - Backup and Sync
+
+### Convert .mov to .mp4
+`mov2mp4 <path to .mov file>
