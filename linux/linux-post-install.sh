@@ -38,14 +38,15 @@ sudo apt-get -y --force-yes update
 sudo apt-get -y --force-yes upgrade
 
 # installing the programs
-sudo apt-get -y install gcc \
+sudo apt-get -y install \
+imagemagick convert \
+gcc \
 google-chrome-stable \
 google-drive-ocamlfuse \
 gnome-shell-pomodoro \
 grub-customizer \
 guake \
 heroku \
-jpegoptim \
 nodejs build-essential \
 numix-gtk-theme \
 numix-icon-theme \
