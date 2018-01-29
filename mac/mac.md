@@ -14,6 +14,9 @@
 ### Chrome Disable autocomplete in omnibox
 alt-shift backspace
 
+### Quickly resize windows
+- Free: use `Spectacle` and you can set your own keyboard shortcuts.
+
 ### Finder Shortcuts
 - cmd-shift-n: create a new folder
 - cmd-L Create a new alias
