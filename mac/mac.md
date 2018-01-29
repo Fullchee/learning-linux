@@ -99,3 +99,14 @@ https://apple.stackexchange.com/questions/92004/is-there-a-way-to-hide-certain-a
 
 ### Chrome: avoid cmd q:
 - Menu bar -> Chrome -> Warn before Qutting
+
+### Login Items
+- Chrome
+- iterm
+- calendar
+- todoist
+- barTunes
+- Pomello
+- spectacle
+- Tomighty
+- Backup and Sync
