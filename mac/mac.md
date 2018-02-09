@@ -2,15 +2,27 @@
 
 - use time machine
 
-### Remote Connect to a server
-1. Open Finder
-2. cmd-k
+## Finder
+- `cmd k` Remote Connect to a server
+- `Cmd shift a` `cmd [` jump around and Refresh Finder
+- `cmd-shift-n`: create a new folder
+- `cmd-L` Create a new alias
+- `cmd-shift-g`: Goto file (autocompleted)
+- `cmd-shift-.` toggle hidden files
+- `alt cmd space` to open up finder
+
+### Finder Tips
+- View -> Show Path Bar
+
+#### Finder Search file type
+Type `kind:doc` to only select .doc types
 
 ### Screenshot
 - cmd-shift-4: screenshot in a timestamped new image on the desktop
 - cmd-ctrl-shift-4: store screenshot in clipboard
 - with MonoSpace: `cmd alt 5`
 
+## Chrome
 ### Chrome Disable autocomplete in omnibox
 alt-shift backspace
 
@@ -19,17 +31,6 @@ Install Karabiner-Elements to switch them.
 
 ### Quickly resize windows
 - Free: use `Spectacle` and you can set your own keyboard shortcuts.
-
-### Finder Shortcuts
-- cmd-shift-n: create a new folder
-- cmd-L Create a new alias
-- cmd-shift-g: Goto file (autocompleted)
-- cmd-shift-.: toggle hidden files
-- View -> Show Path Bar
-- alt cmd space to open up finder
-
-#### Finder Search file type
-Type `kind:doc` to only select .doc types
 
 #### Open folders with an app in Finder (eg iTerm, VSC)
 1. Find the applescripts and create apps for them (won't be posted here, applescript & apps will update)
@@ -110,3 +111,6 @@ https://apple.stackexchange.com/questions/92004/is-there-a-way-to-hide-certain-a
 - spectacle
 - Tomighty
 - Backup and Sync
+
+### Convert .mov to .mp4
+`mov2mp4 <path to .mov file>
