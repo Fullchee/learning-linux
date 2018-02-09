@@ -20,11 +20,13 @@ function breaks() {
 }
 
 alias rmbreaks="sudo pkill shutdown"
+alias psg="ps aux | grep"
+alias pgrep="pgrep -f"
 
 # ---------------- Cross Platform ---------------
 # debug any node program
 debugnode () {
-    node --inspect=9229 --debug-brk "$1" 28688 1
+    node --inspect-brk=9229 "$1" 28688 1
 }
 
 # open a vim program at the bottom
@@ -96,4 +98,23 @@ function mov2mp4() {
 		return
 	fi
 	ffmpeg -i "$1" -acodec mp2 "$(basename "$1" .mov).mp4="
+}
+
+function replacestrindir() {
+	if [ -z "$1" ] ; then
+		echo 'Usage: replacestrindir <target str> <replacement str>' 
+		return
+	fi
+	find . -name *.xml -exec sed -i '' 's/$1/$2/g' {} \;
+}
+
+alias v="vagrant"
+alias d="docker"
+
+function cdg() {
+	TEMP_PWD=$(pwd)
+	while ! [ -d .git ]; do
+		cd ..
+	done
+	OLDPWD=$TEMP_PWD
 }

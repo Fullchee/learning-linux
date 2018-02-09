@@ -8,8 +8,10 @@ brew install \
 cask \
 coreutils \
 ffmpeg \
+jq \
 node \
 pandoc \
+peco \
 the_silver_surfer \
 tree \
 yank \
@@ -37,7 +39,13 @@ rm -rf fonts
 # Path at the top of finder
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool true && killall Finder
 
-npm install -g trash-cli tldr jsinspect eslint fkill-cli trymodule browsersync
+npm install -g browsersync \
+eslint \
+jsinspect \
+np \
+tldr \
+trash-cli \
+trymodule
 
 # Tell system when Xcode utilities live:
 sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer
