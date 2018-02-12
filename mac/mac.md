@@ -113,4 +113,9 @@ https://apple.stackexchange.com/questions/92004/is-there-a-way-to-hide-certain-a
 - Backup and Sync
 
 ### Convert .mov to .mp4
-`mov2mp4 <path to .mov file>
+`mov2mp4 <path to .mov file>`
+
+### Modify the icon of a program
+1. Create an `.icns` file (convert online or something)
+2. Click on your `Application.app` and press `Cmd I`
+3. Drag your `.icns` file to the top left corner where the old icon until you see a green plus sign
