@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=
+Terminal=false
+Name=Android Studio
+Exec=/home/fancyferret/android-studio/bin/studio.sh
+Type=Application
+Icon=/home/fancyferret/Desktop/Android_Studio_icon.svg.png
