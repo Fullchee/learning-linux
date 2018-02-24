@@ -20,11 +20,13 @@ function breaks() {
 }
 
 alias rmbreaks="sudo pkill shutdown"
+alias psg="ps aux | grep"
+alias pgrep="pgrep -f"
 
 # ---------------- Cross Platform ---------------
 # debug any node program
 debugnode () {
-    node --inspect=9229 --debug-brk "$1" 28688 1
+    node --inspect-brk=9229 "$1" 28688 1
 }
 
 # open a vim program at the bottom
@@ -70,4 +72,49 @@ function md2word() {
 		return
 	fi
 	pandoc -o "$2" -f markdown -t docx "$1"
+}
+
+function xlsx2xml() {
+	if [ -z "$1" ] ; then
+		echo 'Usage: xlsx2xml src-xlsx dest-directory' 
+		return
+	fi
+	unzip "$1" -d "$2"
+}
+
+function xml2xlsx() {
+	if [ -z "$1" ] ; then
+		echo 'Usage: xml2xlsx src-xml-folder dest-xslx' 
+		return
+	fi
+
+	find "$1" -type f | xargs zip "$2"
+}
+
+# convert and compress the mov file from QuickTime Player's screen casting
+function mov2mp4() {
+	if [ -z "$1" ] ; then
+		echo 'Usage: mov2mp4 <path to .mov file>' 
+		return
+	fi
+	ffmpeg -i "$1" -acodec mp2 "$(basename "$1" .mov).mp4="
+}
+
+function replacestrindir() {
+	if [ -z "$1" ] ; then
+		echo 'Usage: replacestrindir <target str> <replacement str>' 
+		return
+	fi
+	find . -name *.xml -exec sed -i '' 's/$1/$2/g' {} \;
+}
+
+alias v="vagrant"
+alias d="docker"
+
+function cdg() {
+	TEMP_PWD=$(pwd)
+	while ! [ -d .git ]; do
+		cd ..
+	done
+	OLDPWD=$TEMP_PWD
 }

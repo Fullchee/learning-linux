@@ -1,29 +1,38 @@
+# Reference Sheet on using mac more effectively (and less frustratingly)
+
 ### Moving between macs
 
 - use time machine
 
-### Remote Connect to a server
-1. Open Finder
-2. cmd-k
+## Finder
+- `cmd k` Remote Connect to a server
+- `Cmd shift a` `cmd [` jump around and Refresh Finder
+- `cmd-shift-n`: create a new folder
+- `cmd-L` Create a new alias
+- `cmd-shift-g`: Goto file (autocompleted)
+- `cmd-shift-.` toggle hidden files
+- `alt cmd space` to open up finder
+
+### Finder Tips
+- View -> Show Path Bar
+
+#### Finder Search file type
+Type `kind:doc` to only select .doc types
 
 ### Screenshot
 - cmd-shift-4: screenshot in a timestamped new image on the desktop
 - cmd-ctrl-shift-4: store screenshot in clipboard
 - with MonoSpace: `cmd alt 5`
 
+## Chrome
 ### Chrome Disable autocomplete in omnibox
 alt-shift backspace
 
-### Finder Shortcuts
-- cmd-shift-n: create a new folder
-- cmd-L Create a new alias
-- cmd-shift-g: Goto file (autocompleted)
-- cmd-shift-.: toggle hidden files
-- View -> Show Path Bar
-- alt cmd space to open up finder
+### Swap the ctrl and fn buttons
+Install Karabiner-Elements to switch them.
 
-#### Finder Search file type
-Type `kind:doc` to only select .doc types
+### Quickly resize windows
+- Free: use `Spectacle` and you can set your own keyboard shortcuts.
 
 #### Open folders with an app in Finder (eg iTerm, VSC)
 1. Find the applescripts and create apps for them (won't be posted here, applescript & apps will update)
@@ -93,3 +102,25 @@ https://apple.stackexchange.com/questions/92004/is-there-a-way-to-hide-certain-a
 
 ### Chrome: avoid cmd q:
 - Menu bar -> Chrome -> Warn before Qutting
+
+### Login Items
+- Chrome
+- iTerm
+- Todoist
+- BarTunes
+- Pomello
+- Spectacle
+- Tomighty
+- Backup and Sync (Google Drive)
+
+### Convert .mov to .mp4
+`mov2mp4 <path to .mov file>`
+
+### Modify the icon of a program
+1. Create an `.icns` file (convert online or something)
+2. Click on your `Application.app` and press `Cmd I`
+3. Drag your `.icns` file to the top left corner where the old icon until you see a green plus sign
+
+### Resize Finder column so it fits the text
+- double click on the two bars at the bottom of the column
+  - like Excel, no need to manually drag it out
