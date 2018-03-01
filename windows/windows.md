@@ -97,7 +97,13 @@ echo fullstamp: "%fullstamp%"
 
 
 ### Keyboard/BIOS
-Change the keyboard to use the function keys instead of multi-media functionas
+**Change the keyboard to use the function keys instead of multi-media functions**
 1. Restart the computer
 2. Open the BIOS
 3. Dell: In the Advanced Tab, change the `Function Key Behaviour` option
+
+Find the process number that is using the port
+`netstat -aon | find /i "port number"`
+
+Kill the process given their PID
+`Taskkill /PID "pid" /F`
