@@ -44,3 +44,7 @@ Open with iTerm2, VSCode and Sublime
 
 1. Install the App and place it in the `Applications` folder
 2. Hold `Option+CMD` and drag the application to toolbar
+
+
+
+https://github.com/hamxiaoz/open-folder-with-sublime
