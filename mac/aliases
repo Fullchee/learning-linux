@@ -12,12 +12,7 @@ alias subl="~/bin/subl"
 alias pwords='open "~/Google Drive/What Kind of DB is this2.kdbx"'
 alias o="open"
 alias O="o"
-function breaks() {
-	sudo shutdown -s 12:30;
-	sudo shutdown -s 13:00;
-	sudo shutdown -s 17:30;
-	sudo shutdown -s 18:00;
-}
+alias o.="o ."
 
 alias rmbreaks="sudo pkill shutdown"
 alias psg="ps aux | grep"
