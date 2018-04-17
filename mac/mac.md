@@ -1,3 +1,5 @@
+# Reference Sheet on using mac more effectively (and less frustratingly)
+
 ### Moving between macs
 
 - use time machine
@@ -103,14 +105,22 @@ https://apple.stackexchange.com/questions/92004/is-there-a-way-to-hide-certain-a
 
 ### Login Items
 - Chrome
-- iterm
-- calendar
-- todoist
-- barTunes
+- iTerm
+- Todoist
+- BarTunes
 - Pomello
-- spectacle
+- Spectacle
 - Tomighty
-- Backup and Sync
+- Backup and Sync (Google Drive)
 
 ### Convert .mov to .mp4
-`mov2mp4 <path to .mov file>
+`mov2mp4 <path to .mov file>`
+
+### Modify the icon of a program
+1. Create an `.icns` file (convert online or something)
+2. Click on your `Application.app` and press `Cmd I`
+3. Drag your `.icns` file to the top left corner where the old icon until you see a green plus sign
+
+### Resize Finder column so it fits the text
+- double click on the two bars at the bottom of the column
+  - like Excel, no need to manually drag it out
