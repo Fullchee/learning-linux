@@ -1,20 +1,18 @@
-#!/bin/zsh
+#!/bin/sh
 
-# change shell
-chsh -s /bin/zsh
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get -y install zsh zsh-doc
 
 # adding repos
-add-apt-repository ppa:atareao/atareao
-sudo add-apt-repository -y ppa:nilarimogard/webupd8
-sudo add-apt-repository -y ppa:gnome-terminator/ppa
+sudo add-apt-repository -y ppa:atareao/atareao
 sudo add-apt-repository -y ppa:danielrichter2007/grub-customizer
-sudo add-apt-repository -y ppa:webupd8team/unstable
 sudo add-apt-repository -y ppa:videolan/stable-daily
 sudo add-apt-repository -y ppa:numix/ppa
 sudo add-apt-repository -y ppa:noobslab/apps
 sudo add-apt-repository -y ppa:alessandro-strada/ppa
 sudo add-apt-repository -y ppa:shutter/ppa
-sudo add-apt-repository ppa:peek-developers/stable
+sudo add-apt-repository -y ppa:peek-developers/stable
 
 
 
@@ -71,7 +69,8 @@ xclip \
 xterm \
 yank \
 yarn \
-zip
+zip \
+zsh zsh-doc
 
 
 # install powerline-fonts
@@ -111,3 +110,7 @@ xmodmap -e "keycode 118 ="
 
 # install screenkey
 git -C ~/opt clone https://github.com/wavexx/screenkey.git
+
+
+# change shell
+chsh -s /bin/zsh
