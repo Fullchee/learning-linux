@@ -37,7 +37,8 @@ else
 			 25 "Vnstat" off
 			 26 "Webpack" off
 			 27 "Grunt" off
-			 28 "Gulp" off)
+			 28 "Gulp" off
+			 29 "zsh" off)
 		choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
 		clear
 		for choice in $choices
@@ -226,7 +227,9 @@ else
 			29)
 				echo "Installing zsh"
 				apt install zsh zsh-doc -y
-			
+				;;
+				# ssh keys, https://github.com/Fullchee/new-installation-tips/blob/master/linux/linux-post-install.sh
+				# mailspring, startup apps
 	    esac
 	done
 fi
