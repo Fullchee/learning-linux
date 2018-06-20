@@ -6,3 +6,5 @@
 - rsa keys
 - linux desktop entries
 - Password keys from Drive
+- Microsoft Word/Excel
+- ssh keys?
