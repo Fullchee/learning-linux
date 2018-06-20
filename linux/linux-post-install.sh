@@ -47,6 +47,7 @@ grub-customizer \
 guake \
 heroku \
 keepass2 \
+mailspring \
 nodejs build-essential \
 numix-gtk-theme \
 numix-icon-theme \
