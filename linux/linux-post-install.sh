@@ -13,7 +13,7 @@ sudo add-apt-repository -y ppa:noobslab/apps
 sudo add-apt-repository -y ppa:alessandro-strada/ppa
 sudo add-apt-repository -y ppa:shutter/ppa
 sudo add-apt-repository -y ppa:peek-developers/stable
-
+sudo add-apt-repository ppa:jtaylor/keepass
 
 
 # sublime text
@@ -45,6 +45,7 @@ gnome-shell-pomodoro \
 grub-customizer \
 guake \
 heroku \
+keepass2 \
 nodejs build-essential \
 numix-gtk-theme \
 numix-icon-theme \
