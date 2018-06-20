@@ -67,7 +67,6 @@ touchpad-indicator \
 tree \
 vlc \
 wine-stable \
-workrave \
 xclip \
 xterm \
 yank \
