@@ -37,7 +37,8 @@ sudo apt-get -y --force-yes upgrade
 
 # installing the programs
 sudo apt-get -y install \
-imagemagick convert \
+imagemagick 
+#convert \
 gcc \
 google-chrome-stable \
 google-drive-ocamlfuse \
@@ -57,14 +58,15 @@ redshift \
 redshift-gtk \
 ruby-all-dev \
 silversearcher-ag \
-shutter libgoo-canvas-perl \
+shutter \
+# libgoo-canvas-perl \
 sublime-text \
 synapse \
-terminator \
+#terminator \
 touchpad-indicator \
 tree \
 vlc \
-wine \
+wine-stable \
 workrave \
 xclip \
 xterm \
