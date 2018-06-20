@@ -11,7 +11,7 @@ else
 	sudo apt-get install dialog
 	cmd=(dialog --separate-output --checklist "Please Select Software you want to install:" 22 76 16)
 	options=(1 "Sublime Text 3" off    # any option can be set to default to "on"
-	         2 "LAMP Stack" off
+	         2 "Utilities I use" off
 	         3 "Build Essentials" off
 	         4 "Node.js" off
 	         5 "Git" off
@@ -46,32 +46,19 @@ else
 	        	1)
 	            		#Install Sublime Text 3*
 				echo "Installing Sublime Text"
-				add-apt-repository ppa:webupd8team/sublime-text-3 -y
-				apt update
-				apt install sublime-text-installer -y
+				wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+				echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+				apt install sublime-text -y
 				;;
 
 			2)
-			    	#Install LAMP stack
-				echo "Installing Apache"
-				apt install apache2 -y
-	            
-    			echo "Installing Mysql Server"
-	 			apt install mysql-server -y
-
-        		echo "Installing PHP"
-				apt install php libapache2-mod-php php-mcrypt php-mysql -y
-	            
-        		echo "Installing Phpmyadmin"
-				apt install phpmyadmin -y
-
-				echo "Cofiguring apache to run Phpmyadmin"
-				echo "Include /etc/phpmyadmin/apache.conf" >> /etc/apache2/apache2.conf
+			    	#Install curl
+				apt install -y curl
 				
-				echo "Enabling module rewrite"
-				sudo a2enmod rewrite
-				echo "Restarting Apache Server"
-				service apache2 restart
+				# install yarn
+				curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+				echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+				apt install -y yarn
 				;;
     		3)	
 				#Install Build Essentials
@@ -236,6 +223,10 @@ else
 				echo "Installing Gulp"
 				npm install gulp -g
 				;;
+			29)
+				echo "Installing zsh"
+				apt install zsh zsh-doc -y
+			
 	    esac
 	done
 fi
