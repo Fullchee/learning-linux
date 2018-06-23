@@ -47,31 +47,31 @@ grub-customizer \
 guake \
 heroku \
 keepass2 \
-mailspring \
+mailspring \ # awesome email client
 nodejs build-essential \
 numix-gtk-theme \
 numix-icon-theme \
-pandoc \
-peek \
-playonlinux \
-realpath \
-redshift \
+pandoc \ # convert between file types
+peek \ # record gifs
+playonlinux \ # have Microsoft Office on Linux
+realpath \ # (ie realpath ~/.zshrc) 
+redshift \ # fl.ux for Linux, turn your screen red
 redshift-gtk \
 ruby-all-dev \
-silversearcher-ag \
-shutter \
+silversearcher-ag \ # grep but much better
+shutter \ # screenshot and quick editing
 # libgoo-canvas-perl \
 sublime-text \
-synapse \
+synapse \ # starter
 #terminator \
 touchpad-indicator \
-tree \
+tree \ # print the file structure
 vlc \
 wine-stable \
 xclip \
 xterm \
 yank \
-yarn \
+yarn \ # Facebook's npm
 zip \
 zsh zsh-doc
 
