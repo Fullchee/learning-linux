@@ -2,7 +2,6 @@
 
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get -y install zsh zsh-doc
 
 # adding repos
 sudo add-apt-repository -y ppa:atareao/atareao
@@ -38,7 +37,7 @@ sudo apt-get -y --force-yes upgrade
 # installing the programs
 sudo apt-get -y install \
 imagemagick 
-#convert \
+convert \
 gcc \
 google-chrome-stable \
 google-drive-ocamlfuse \
@@ -63,7 +62,7 @@ shutter \ # screenshot and quick editing
 # libgoo-canvas-perl \
 sublime-text \
 synapse \ # starter
-#terminator \
+terminator \
 touchpad-indicator \
 tree \ # print the file structure
 vlc \
