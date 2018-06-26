@@ -69,6 +69,7 @@ vlc \
 wine-stable \
 xclip \
 xterm \
+vim \
 yank \
 yarn \ # Facebook's npm
 zip \
