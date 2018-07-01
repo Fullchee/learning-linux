@@ -41,6 +41,7 @@ convert \
 gcc \
 google-chrome-stable \
 google-drive-ocamlfuse \
+gnome-tweak-tool gnome-shell-extensions chrome-gnome-shell \
 gnome-shell-pomodoro \
 grub-customizer \
 guake \
