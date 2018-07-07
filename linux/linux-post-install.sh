@@ -110,7 +110,7 @@ config config --local status.showUntrackedFiles no
 sudo chmod -x /usr/local/bin/yelp
 
 # note: for fkill, you may have to run sudo fkill
-npm install -g trash-cli tldr jsinspect eslint fkill-cli trymodule browsersync
+npm install -g trash-cli tldr eslint trymodule
 
 # change shell last
 chsh -s /bin/zsh
