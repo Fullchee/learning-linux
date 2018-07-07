@@ -76,6 +76,12 @@ yarn \ # Facebook's npm
 zip \
 zsh zsh-doc
 
+# Install Anki
+wget https://apps.ankiweb.net/downloads/current/anki-2.0.52-amd64.tar.bz2
+tar xjf anki-2.0.52-amd64.tar.bz2
+cd anki-2.0.52
+sudo make install
+cd ..
 
 # install powerline-fonts
 git clone https://github.com/powerline/fonts.git --depth=1
