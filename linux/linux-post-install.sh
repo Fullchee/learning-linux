@@ -12,7 +12,8 @@ sudo add-apt-repository -y ppa:noobslab/apps
 sudo add-apt-repository -y ppa:alessandro-strada/ppa
 sudo add-apt-repository -y ppa:shutter/ppa
 sudo add-apt-repository -y ppa:peek-developers/stable
-sudo add-apt-repository ppa:jtaylor/keepass
+sudo add-apt-repository -y ppa:jtaylor/keepass
+sudo add-apt-repository -y ppa:linrunner/tlp
 
 
 # sublime text
@@ -65,6 +66,7 @@ sublime-text \
 synapse \ # starter
 terminator \
 touchpad-indicator \
+tlp \
 tree \ # print the file structure
 vlc \
 wine-stable \
