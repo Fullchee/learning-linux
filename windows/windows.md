@@ -107,3 +107,7 @@ Find the process number that is using the port
 
 Kill the process given their PID
 `Taskkill /PID "pid" /F`
+
+EZBlocket (Block desktop Spotify ads)
+
+WizTree (Faster than WinDirStat)
