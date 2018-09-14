@@ -65,6 +65,7 @@ shutter \ # screenshot and quick editing
 sublime-text \
 synapse \ # starter
 terminator \
+texlive-full \
 touchpad-indicator \
 tlp \
 tree \ # print the file structure
