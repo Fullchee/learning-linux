@@ -13,9 +13,11 @@ Themes -> Icons -> Numix
 
 * PlayOnLinux Microsoft Word/Excel
 	* potentially might have to install this script
+	* get the version of wine for your distro https://wiki.winehq.org/Ubuntu
 ```
 sudo dpkg --add-architecture i386
 sudo apt update
+sudo aptitude install winehq-stable
 ```
 
 # Chrome
