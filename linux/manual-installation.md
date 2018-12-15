@@ -6,6 +6,8 @@ Themes -> Icons -> Numix
 
 # Programs
 * Anki (potentially could be automated)
+	* https://apps.ankiweb.net/
+	* Add Ons: https://gist.github.com/Fullchee/20d835b5d2d88eabc778f75f169015d2
 * VSCode and Sublime: install the sync packages
 * RescueTime
 * gdrive (just run `gdrive` to init)
