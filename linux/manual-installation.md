@@ -1,16 +1,19 @@
-# TODO
+# Settings
 
-- whale (trello unofficial app)
-- todoist (unofficial app)
-- linux desktop entries
-- Password keys from Drive
-- Microsoft Word/Excel
-- ssh keys?
+Settings -> Sound -> Sounds -> Starting Cinnamon (disable)
 
-### .ssh keys
-1. Copy the ~/.ssh keys from your computer to the new computer
-2. Mae sure to change the permissions for the private and public keys:
+Themes -> Icons -> Numix
+
+# Programs
+* Anki (potentially could be automated)
+* PlayOnLinux Microsoft Word/Excel
+	* potentially might have to install this script
 ```
-chmod 600 ~/.ssh/id_rsa
-chmod 644 ~/.ssh/id_rsa.pub
+sudo dpkg --add-architecture i386
+sudo apt update
 ```
+
+# Chrome
+* extensions
+* Todoist shortcut
+* GitHub repos!
