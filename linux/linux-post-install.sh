@@ -15,6 +15,7 @@ sudo add-apt-repository -y ppa:peek-developers/stable
 sudo add-apt-repository -y ppa:jtaylor/keepass
 sudo add-apt-repository -y ppa:linrunner/tlp
 
+sudo apt install snapd -y
 
 # sublime text
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
@@ -36,55 +37,63 @@ sudo apt-get -y --force-yes update
 sudo apt-get -y --force-yes upgrade
 
 # installing the programs
-sudo apt-get -y install \
-imagemagick 
-convert \
-gcc \
-google-chrome-stable \
-google-drive-ocamlfuse \
-gnome-tweak-tool gnome-shell-extensions chrome-gnome-shell \
-gnome-shell-pomodoro \
-grub-customizer \
-guake \
-heroku \
-keepass2 \
-mailspring \ # awesome email client
-nodejs build-essential \
-numix-gtk-theme \
-numix-icon-theme \
-pandoc \ # convert between file types
-peek \ # record gifs
-playonlinux \ # have Microsoft Office on Linux
-realpath \ # (ie realpath ~/.zshrc) 
-redshift \ # fl.ux for Linux, turn your screen red
-redshift-gtk \
-ruby-all-dev \
-silversearcher-ag \ # grep but much better
-shutter \ # screenshot and quick editing
-# libgoo-canvas-perl \
-sublime-text \
-synapse \ # starter
-terminator \
-texlive-full \
-touchpad-indicator \
-tlp \
-tree \ # print the file structure
-vlc \
-wine-stable \
-xclip \
-xterm \
-vim \
-yank \
-yarn \ # Facebook's npm
-zip \
-zsh zsh-doc
+sudo apt-get -y install imagemagick
+sudo apt-get -y install convert
+sudo apt-get -y install gcc
+sudo apt-get -y install git
+sudo apt-get -y install google-chrome-stable
+sudo apt-get -y install google-drive-ocamlfuse
+sudo apt-get -y install gnome-tweak-tool gnome-shell-extensions chrome-gnome-shell
+sudo apt-get -y install gnome-shell-pomodoro
+sudo apt-get -y install grub-customizer
+sudo apt-get -y install gconf-editor
+sudo apt-get -y install guake
+sudo apt-get -y install heroku
+sudo apt-get -y install keepass2
+# sudo apt-get -y install mailspring # awesome email client
+sudo apt-get -y install nodejs build-essential npm
+sudo apt-get -y install numix-gtk-theme
+sudo apt-get -y install numix-icon-theme
+sudo apt-get -y install pandoc # convert between file types
+sudo apt-get -y install peek # record gifs
+sudo apt-get -y install playonlinux # have Microsoft Office on Linux
+sudo apt-get -y install redshift # fl.ux for Linux, turn your screen red
+sudo apt-get -y install redshift-gtk
+sudo apt-get -y install ruby-all-dev
+sudo apt-get -y install silversearcher-ag # grep but much better
+sudo apt-get -y install shutter # screenshot and quick editing
+# libgoo-canvas-perl
+sudo apt-get -y install sublime-text
+sudo apt-get -y install synapse # starter
+sudo apt-get -y install terminator
+sudo apt-get -y install texlive-full
+sudo apt-get -y install touchpad-indicator
+sudo apt-get -y install tlp
+sudo apt-get -y install tree # print the file structure
+sudo apt-get -y install vlc
+sudo apt-get -y install wine-stable
+sudo apt-get -y install xclip
+sudo apt-get -y install xterm
+sudo apt-get -y install vim
+sudo apt-get -y install yank
+sudo apt-get -y install yarn # Facebook's npm
+sudo apt-get -y install zip
+sudo apt-get -y install zsh
+sudo apt-get -y install zsh-doc
+
+sudo apt remove -y tomboy
+
+sudo snap install slack --classic
 
 # Install Anki
-wget https://apps.ankiweb.net/downloads/current/anki-2.0.52-amd64.tar.bz2
-tar xjf anki-2.0.52-amd64.tar.bz2
-cd anki-2.0.52
-sudo make install
-cd ..
+# wget -c https://apps.ankiweb.net/downloads/current/anki-2.0.52-amd64.tar.bz2
+# tar xjf anki-2.0.52-amd64.tar.bz2
+# cd anki-2.0.52
+# sudo make install
+# cd ..
+
+git config --global user.email "fmkdir dbullchee@gmail.com"
+git config --global user.name "Fullchee Zhang"
 
 # install powerline-fonts
 git clone https://github.com/powerline/fonts.git --depth=1
@@ -97,33 +106,25 @@ rm -rf fonts
 # if you have a synaptics touchpad, you need this command for touchpad-indicator
 killall syndaemon
 
-# install prezto
-git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
-setopt EXTENDED_GLOB
-
-for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
-  ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
-done
 
 # install my dotfiles after installing prezto
 git clone --bare https://github.com/Fullchee/cfg.git $HOME/.cfg
+
+# TODO: config isn't currently in the .bashrc
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME' $@
 config config --local status.showUntrackedFiles no
+config reset --hard
+touch ~/.private_aliases
 
 # Disable global Linux Mint help when pressing F1
 sudo chmod -x /usr/local/bin/yelp
 
 # note: for fkill, you may have to run sudo fkill
-npm install -g trash-cli tldr eslint trymodule
-
-# change shell last
-chsh -s /bin/zsh
+npm install -g trash-cli tldr eslint
 
 # disable the insert button
 xmodmap -e "keycode 118 ="
 
 # install screenkey
 git -C ~/opt clone https://github.com/wavexx/screenkey.git
-
-
-# change shell
-chsh -s /bin/zsh
+sudo ~/opt/screenkey/setup.py install
