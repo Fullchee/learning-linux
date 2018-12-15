@@ -12,6 +12,9 @@ Themes -> Icons -> Numix
 * RescueTime
 * gdrive (just run `gdrive` to init)
 
+* Shutter
+	* Custom Keyboard Shortcut `shutter -s'
+	* Download the dependencies to edit https://itsfoss.com/shutter-edit-button-disabled/
 
 * PlayOnLinux Microsoft Word/Excel
 	* potentially might have to install this script
