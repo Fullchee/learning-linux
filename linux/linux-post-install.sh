@@ -135,3 +135,6 @@ xmodmap -e "keycode 118 ="
 # install screenkey
 git -C ~/opt clone https://github.com/wavexx/screenkey.git
 sudo ~/opt/screenkey/setup.py install
+
+# create google drive for ocamlfuse
+mkdir ~/google-drive
