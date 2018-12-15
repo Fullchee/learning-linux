@@ -8,6 +8,7 @@ Themes -> Icons -> Numix
 * Anki (potentially could be automated)
 * PlayOnLinux Microsoft Word/Excel
 	* potentially might have to install this script
+* VSCode and Sublime: install the sync packages
 ```
 sudo dpkg --add-architecture i386
 sudo apt update
