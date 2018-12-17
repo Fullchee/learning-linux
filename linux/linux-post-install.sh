@@ -92,10 +92,11 @@ sudo snap install slack --classic
 
 # Install Anki
 # wget -c https://apps.ankiweb.net/downloads/current/anki-2.0.52-amd64.tar.bz2
-# tar xjf anki-2.0.52-amd64.tar.bz2
-# cd anki-2.0.52
-# sudo make install
-# cd ..
+wget -c https://apps.ankiweb.net/downloads/archive/anki-2.0.52-amd64.tar.bz2
+tar -xjf anki-2.0.52-amd64.tar.bz2
+cd anki-2.0.52
+sudo make install
+cd ..
 
 git config --global user.email "fmkdir dbullchee@gmail.com"
 git config --global user.name "Fullchee Zhang"
