@@ -20,6 +20,8 @@ Themes -> Icons -> Numix
 	* potentially might have to install this script
 ```
 # https://wiki.winehq.org/Ubuntu
+wget -nc https://dl.winehq.org/wine-builds/Release.key
+sudo apt-key add Release.key
 # THIS IS ONLY FOR LINUX MINT 19
 sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main'
 
