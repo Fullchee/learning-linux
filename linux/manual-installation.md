@@ -19,10 +19,11 @@ Themes -> Icons -> Numix
 * PlayOnLinux Microsoft Word/Excel
 	* potentially might have to install this script
 ```
-# https://wiki.winehq.org/Ubuntu
 wget -nc https://dl.winehq.org/wine-builds/Release.key
 sudo apt-key add Release.key
-# THIS IS ONLY FOR LINUX MINT 19
+
+# Get the new name for the repo!
+# https://wiki.winehq.org/Ubuntu
 sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main'
 
 sudo dpkg --add-architecture i386
