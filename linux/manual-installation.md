@@ -18,8 +18,11 @@ Themes -> Icons -> Numix
 
 * PlayOnLinux Microsoft Word/Excel
 	* potentially might have to install this script
-	* get the version of wine for your distro https://wiki.winehq.org/Ubuntu
 ```
+# https://wiki.winehq.org/Ubuntu
+# THIS IS ONLY FOR LINUX MINT 19
+sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main'
+
 sudo dpkg --add-architecture i386
 sudo apt update
 sudo aptitude install winehq-stable
