@@ -1,8 +1,5 @@
 #!/bin/sh
 
-sudo apt-get update
-sudo apt-get upgrade
-
 # adding repos
 sudo add-apt-repository -y ppa:atareao/atareao
 sudo add-apt-repository -y ppa:danielrichter2007/grub-customizer
@@ -89,7 +86,7 @@ sudo apt-get -y install apt-transport-https # for vscode
 sudo apt-get -y install code
 
 sudo apt remove -y tomboy
-sudo apt-get remove gnome-screenshot # I use shutter instead, you can edit 
+sudo apt-get remove -y gnome-screenshot # I use shutter instead, you can edit 
 
 sudo snap install slack --classic
 
