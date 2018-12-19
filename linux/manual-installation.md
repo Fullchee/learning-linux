@@ -40,3 +40,7 @@ sudo aptitude install winehq-stable
 https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2
 
 # Printers!
+
+# Java
+* Java JDK https://www.oracle.com/technetwork/java/javase/downloads/index.html
+* Intellij https://www.jetbrains.com/idea/download/#section=linux
