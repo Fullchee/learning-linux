@@ -128,7 +128,7 @@ touch ~/.private_aliases
 sudo chmod -x /usr/local/bin/yelp
 
 # note: for fkill, you may have to run sudo fkill
-npm install -g trash-cli tldr eslint npx
+npm install -g npm trash-cli tldr eslint npx
 
 # disable the insert button
 xmodmap -e "keycode 118 ="
