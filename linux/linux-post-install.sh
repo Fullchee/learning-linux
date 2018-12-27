@@ -11,6 +11,7 @@ sudo add-apt-repository -y ppa:shutter/ppa
 sudo add-apt-repository -y ppa:peek-developers/stable
 sudo add-apt-repository -y ppa:jtaylor/keepass
 sudo add-apt-repository -y ppa:linrunner/tlp
+sudo add-apt-repository -y ppa:linuxgndu/sqlitebrowser
 
 # VSCode
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
@@ -84,6 +85,7 @@ sudo apt-get -y install zsh
 sudo apt-get -y install zsh-doc
 sudo apt-get -y install apt-transport-https # for vscode
 sudo apt-get -y install code
+sudo apt-get -y install sqlitebrowser
 
 sudo apt remove -y tomboy
 sudo apt-get remove -y gnome-screenshot # I use shutter instead, you can edit 
