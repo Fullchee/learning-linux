@@ -1,4 +1,5 @@
 # LinuxChecklist.md
+- [ ] install anaconda3
 - [ ] zsh-scripts.sh
 - [ ] Play On Linux
 	- [ ] https://wiki.winehq.org/Ubuntu
@@ -9,4 +10,9 @@
 - [ ] Sublime Text and VSCode Sync
 - [ ] Git Repos
 - [ ] Login to Anki
-
+- [ ] use numix theme
+- [ ] install printers and scanners
+- [ ] shutter
+	- [ ] enable print screen shortcut
+	- [ ] enable edit (https://itsfoss.com/shutter-edit-button-disabled/)
+- sudo vim /etc/crontab
