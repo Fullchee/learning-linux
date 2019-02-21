@@ -145,6 +145,10 @@ xmodmap -e "keycode 118 ="
 # git -C ~/opt clone https://github.com/wavexx/screenkey.git
 # sudo ~/opt/screenkey/setup.py install
 
-# create google drive for ocamlfuse
-mkdir ~/google-drive
+# create google drive
+mkdir ~/grive
 
+git config --global credential.helper store
+
+cd ~/learning
+git clone https://github.com/Fullchee/Fullchee.github.io.git
