@@ -102,7 +102,7 @@ cd anki-2.0.52
 sudo make install
 cd ..
 
-git config --global user.email "fmkdir dbullchee@gmail.com"
+git config --global user.email "fullchee@gmail.com"
 git config --global user.name "Fullchee Zhang"
 
 # install powerline-fonts
