@@ -12,6 +12,8 @@ sudo add-apt-repository -y ppa:peek-developers/stable
 sudo add-apt-repository -y ppa:jtaylor/keepass
 sudo add-apt-repository -y ppa:linrunner/tlp
 sudo add-apt-repository -y ppa:linuxgndu/sqlitebrowser
+sudo add-apt-repository -y ppa:nilarimogard/webupd8
+
 
 # VSCode
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
@@ -45,7 +47,7 @@ sudo apt-get -y install convert
 sudo apt-get -y install gcc
 sudo apt-get -y install git
 sudo apt-get -y install google-chrome-stable
-sudo apt-get -y install google-drive-ocamlfuse
+sudo apt-get -y install grive
 sudo apt-get -y install gnome-tweak-tool gnome-shell-extensions chrome-gnome-shell
 sudo apt-get -y install gnome-shell-pomodoro
 sudo apt-get -y install grub-customizer
@@ -86,9 +88,11 @@ sudo apt-get -y install zsh-doc
 sudo apt-get -y install apt-transport-https # for vscode
 sudo apt-get -y install code
 sudo apt-get -y install sqlitebrowser
+sudo apt-get -y install okular
 
 sudo apt remove -y tomboy
 sudo apt-get remove -y gnome-screenshot # I use shutter instead, you can edit 
+sudo apt remove -y hexchat
 
 sudo snap install slack --classic
 #sudo snap install docker circleci
@@ -135,9 +139,12 @@ npm install -g npm trash-cli tldr eslint npx
 # disable the insert button
 xmodmap -e "keycode 118 ="
 
+
+
 # install screenkey
-git -C ~/opt clone https://github.com/wavexx/screenkey.git
-sudo ~/opt/screenkey/setup.py install
+# git -C ~/opt clone https://github.com/wavexx/screenkey.git
+# sudo ~/opt/screenkey/setup.py install
 
 # create google drive for ocamlfuse
 mkdir ~/google-drive
+
