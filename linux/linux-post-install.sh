@@ -91,8 +91,8 @@ sudo apt remove -y tomboy
 sudo apt-get remove -y gnome-screenshot # I use shutter instead, you can edit 
 
 sudo snap install slack --classic
-sudo snap install docker circleci
-sudo snap connect circleci:docker docker
+#sudo snap install docker circleci
+#sudo snap connect circleci:docker docker
 
 # Install Anki
 # wget -c https://apps.ankiweb.net/downloads/current/anki-2.0.52-amd64.tar.bz2
