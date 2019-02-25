@@ -5,14 +5,19 @@
 	- [ ] https://wiki.winehq.org/Ubuntu
 	- [ ] Install Office 2007 (word and excel)
 - [ ] Node.js
+	- [ ] npm global variables
 - [ ] Chrome Login and extensions
 - [ ] Firefox Login and credentials
 - [ ] Sublime Text and VSCode Sync
 - [ ] Git Repos
 - [ ] Login to Anki
+	- [ ] install all the plugins
 - [ ] use numix theme
 - [ ] install printers and scanners
 - [ ] shutter
 	- [ ] enable print screen shortcut
 	- [ ] enable edit (https://itsfoss.com/shutter-edit-button-disabled/)
 - sudo vim /etc/crontab
+- [ ] Setup bluetooth devices
+	- [ ] portable speaker
+	- [ ] wireless headphones
