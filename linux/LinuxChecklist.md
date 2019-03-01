@@ -21,3 +21,6 @@
 - [ ] Setup bluetooth devices
 	- [ ] portable speaker
 	- [ ] wireless headphones
+- [ ] ssh keys (uoft)
+- [ ] RescueTime https://www.rescuetime.com/download_linux
+	- [ ] login to Chrome extension
