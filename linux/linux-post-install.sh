@@ -129,6 +129,7 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME' $@
 config config --local status.showUntrackedFiles no
 config reset --hard
 touch ~/.private_aliases
+config update-index --assume-unchanged ~/.npmrc  # don't want to accidentally add npm credentials
 
 # Disable global Linux Mint help when pressing F1
 sudo chmod -x /usr/local/bin/yelp
