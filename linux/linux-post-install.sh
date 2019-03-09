@@ -13,7 +13,7 @@ sudo add-apt-repository -y ppa:jtaylor/keepass
 sudo add-apt-repository -y ppa:linrunner/tlp
 sudo add-apt-repository -y ppa:linuxgndu/sqlitebrowser
 sudo add-apt-repository -y ppa:nilarimogard/webupd8
-
+sudo add-apt-repository -y ppa:cpick/hub
 
 # VSCode
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
@@ -54,6 +54,7 @@ sudo apt-get -y install grub-customizer
 sudo apt-get -y install gconf-editor
 sudo apt-get -y install guake
 sudo apt-get -y install heroku
+sudo apt-get -y install hub # github's wrapper for git
 sudo apt-get -y install keepass2
 # sudo apt-get -y install mailspring # awesome email client
 sudo apt-get -y install nodejs build-essential npm
