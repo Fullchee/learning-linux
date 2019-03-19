@@ -71,7 +71,6 @@ sudo apt-get -y install shutter # screenshot and quick editing
 # libgoo-canvas-perl
 sudo apt-get -y install sublime-text
 sudo apt-get -y install synapse # starter
-sudo apt-get -y install terminator
 sudo apt-get -y install texlive-full
 sudo apt-get -y install touchpad-indicator
 sudo apt-get -y install tlp
