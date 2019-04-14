@@ -89,6 +89,7 @@ sudo apt-get -y install apt-transport-https # for vscode
 sudo apt-get -y install code
 sudo apt-get -y install sqlitebrowser
 sudo apt-get -y install okular
+sudo apt-get -y install youtube-dl
 
 sudo apt remove -y tomboy
 sudo apt-get remove -y gnome-screenshot # I use shutter instead, you can edit 
