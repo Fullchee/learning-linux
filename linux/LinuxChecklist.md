@@ -1,27 +1,51 @@
 # LinuxChecklist.md
+
+# Setup
 - [ ] install anaconda3
 - [ ] zsh-scripts.sh
 - [ ] Play On Linux
 	- [ ] https://wiki.winehq.org/Ubuntu
 	- [ ] Install Office 2007 (word and excel)
+```
+wget -nc https://dl.winehq.org/wine-builds/Release.key
+sudo apt-key add Release.key
+
+# Get the new name for the repo!
+# https://wiki.winehq.org/Ubuntu
+sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main'
+
+sudo dpkg --add-architecture i386
+sudo apt update
+sudo aptitude install winehq-stable
+```
 - [ ] Node.js
 	- [ ] npm global variables
 - [ ] Chrome Login and extensions
 - [ ] Firefox Login and credentials
-- [ ] Sublime Text and VSCode Sync
+- [ ] Sublime Text and VSCode Sync (LastPass)
 - [ ] Git Repos
-- [ ] Login to Anki
-	- [ ] install all the plugins
+- [ ] [Anki](https://apps.ankiweb.net/)
+	- [ ] [install all the plugins](https://gist.github.com/Fullchee/20d835b5d2d88eabc778f75f169015d2)
 - [ ] use numix theme
 - [ ] install printers and scanners
 - [ ] shutter
-	- [ ] enable print screen shortcut
+	- [ ] enable print screen shortcut `shutter -s'
 	- [ ] enable edit (https://itsfoss.com/shutter-edit-button-disabled/)
-- sudo vim /etc/crontab
+- [ ] sudo crontab -e
+	- [ ] `* 1 * * * sudo poweroff`
+- [ ] crontab -e
+	- [ ] `* 1 * * * gnome-session-quit --no-prompt`
 - [ ] Setup bluetooth devices
 	- [ ] portable speaker
 	- [ ] wireless headphones
-- [ ] ssh keys
+- [ ] [ssh keys](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2)
 - [ ] RescueTime https://www.rescuetime.com/download_linux
 	- [ ] login to Chrome extension
 - [ ] `im-config` and use xim (ibus, the default has the annoying ctrl shift e shortcut)
+- [ ] Settings -> Sound -> Sounds -> Starting Cinnamon (disable)
+- [ ] [grive](https://github.com/vitalif/grive2) (run grive in ~/grive)
+- [ ] Printers
+- [ ] Java
+	- [ ] [JDK](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
+	- [ ] [Intellij](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
+	- [ ] Android Studio
