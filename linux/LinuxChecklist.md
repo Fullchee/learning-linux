@@ -21,6 +21,7 @@
 - [ ] Setup bluetooth devices
 	- [ ] portable speaker
 	- [ ] wireless headphones
-- [ ] ssh keys (uoft)
+- [ ] ssh keys
 - [ ] RescueTime https://www.rescuetime.com/download_linux
 	- [ ] login to Chrome extension
+- [ ] `im-config` and use xim (ibus, the default has the annoying ctrl shift e shortcut)
