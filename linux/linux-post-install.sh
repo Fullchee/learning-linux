@@ -42,6 +42,7 @@ sudo apt-get -y --force-yes update
 sudo apt-get -y --force-yes upgrade
 
 # installing the programs
+sudo apt-get -y install at
 sudo apt-get -y install imagemagick
 sudo apt-get -y install convert
 sudo apt-get -y install gcc
