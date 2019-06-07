@@ -3,6 +3,8 @@
 - BarTunes
 - MonoSnap
 - Tomighty
+- Table Tool https://itunes.apple.com/us/app/table-tool/id1122008420?mt=12
+- Alternatively, https://tablecruncher.com/
 
 
 
@@ -23,8 +25,6 @@
 - Spectacle (shortcuts for window sizing)
 
 - Karabiner (swap control with fn)
-
-  ​
 
 ## Settings
 
