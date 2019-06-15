@@ -90,6 +90,7 @@ sudo apt-get -y install apt-transport-https # for vscode
 sudo apt-get -y install code
 sudo apt-get -y install sqlitebrowser
 sudo apt-get -y install okular
+sudo apt-get -y install unetbootin
 sudo apt-get -y install youtube-dl
 sudo apt-get install fonts-inconsolata -y
 sudo fc-cache -fv
