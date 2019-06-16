@@ -110,6 +110,8 @@ tar -xjf anki-2.0.52-amd64.tar.bz2
 cd anki-2.0.52
 sudo make install
 cd ..
+rm -rf anki-2.0.52
+rm -f anki-2.0.52-amd64.tar.bz2
 
 git config --global user.email "fullchee@gmail.com"
 git config --global user.name "Fullchee Zhang"
