@@ -167,3 +167,16 @@ cd ~/Desktop
 wget https://raw.githubusercontent.com/Fullchee/post-install-scripts/master/linux/zsh-scripts.sh
 chmod u+x zsh-scripts.sh
 cd -
+
+# shutter packages for editing
+wget https://launchpad.net/ubuntu/+archive/primary/+files/libgoocanvas-common_1.0.0-1_all.deb
+sudo apt install -y ./libgoocanvas-common_1.0.0-1_all.deb
+rm -f libgoocanvas-common_1.0.0-1_all.deb
+
+wget https://launchpad.net/ubuntu/+archive/primary/+files/libgoocanvas3_1.0.0-1_amd64.deb
+sudo apt install -y ./libgoocanvas3_1.0.0-1_amd64.deb
+rm -f ./libgoocanvas3_1.0.0-1_amd64.deb
+
+wget https://launchpad.net/ubuntu/+archive/primary/+files/libgoo-canvas-perl_0.06-2ubuntu3_amd64.deb
+sudo apt install -y ./libgoo-canvas-perl_0.06-2ubuntu3_amd64.deb
+rm -f ./libgoo-canvas-perl_0.06-2ubuntu3_amd64.deb
