@@ -156,5 +156,6 @@ mkdir ~/grive
 
 git config --global credential.helper store
 
+mkdir ~/learning
 cd ~/learning
 git clone https://github.com/Fullchee/Fullchee.github.io.git
