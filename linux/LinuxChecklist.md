@@ -51,7 +51,7 @@ cd linux-UFRII-drv-v370-usen
 sudo ./install.sh
 cd ..
 rm -rf linux-UFRII-drv-v370-usen
-rm -f 
+rm -f linux-UFRII-drv-v370-usen-06.tar.gz
 ```
 - [ ] Java
 	- [ ] [JDK](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
