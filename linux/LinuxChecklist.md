@@ -44,6 +44,15 @@ sudo aptitude install winehq-stable
 - [ ] Settings -> Sound -> Sounds -> Starting Cinnamon (disable)
 - [ ] [grive](https://github.com/vitalif/grive2) (run grive in ~/grive)
 - [ ] Printers
+```sh
+# CANON MF4770n
+wget http://pdisp01.c-wss.com/gdl/WWUFORedirectTarget.do?id=MDEwMDAwOTIzNjAz&cmp=ABR&lang=EN
+cd linux-UFRII-drv-v370-usen
+sudo ./install.sh
+cd ..
+rm -rf linux-UFRII-drv-v370-usen
+rm -f 
+```
 - [ ] Java
 	- [ ] [JDK](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 	- [ ] [Intellij](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
