@@ -161,3 +161,8 @@ git config --global credential.helper store
 mkdir ~/learning
 cd ~/learning
 git clone https://github.com/Fullchee/Fullchee.github.io.git
+
+cd ~/Desktop
+wget https://raw.githubusercontent.com/Fullchee/post-install-scripts/master/linux/zsh-scripts.sh
+chmod u+x zsh-scripts.sh
+cd -
