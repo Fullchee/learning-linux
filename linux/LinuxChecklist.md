@@ -30,7 +30,6 @@ sudo aptitude install winehq-stable
 - [ ] install printers and scanners
 - [ ] shutter
 	- [ ] enable print screen shortcut `shutter -s'
-	- [ ] enable edit (https://itsfoss.com/shutter-edit-button-disabled/)
 - [ ] sudo crontab -e
 	- [ ] `* 1 * * * sudo poweroff`
 - [ ] crontab -e
