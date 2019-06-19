@@ -52,3 +52,10 @@ sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer
 
 # Set "opendiff" as the default mergetool globally:
 git config --global merge.tool opendiff
+
+# install my dotfiles after installing prezto
+git clone --bare https://github.com/Fullchee/mac-dotfiles.git $HOME/.cfg
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME' $@
+config config --local status.showUntrackedFiles no
+config reset --hard
+touch ~/.private_aliases
