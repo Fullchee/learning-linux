@@ -131,8 +131,6 @@ killall syndaemon
 
 # install my dotfiles after installing prezto
 git clone --bare https://github.com/Fullchee/cfg.git $HOME/.cfg
-
-# TODO: config isn't currently in the .bashrc
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME' $@
 config config --local status.showUntrackedFiles no
 config reset --hard
