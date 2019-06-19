@@ -2,34 +2,21 @@
 
 - BarTunes
 - MonoSnap
-- Tomighty
+- Be Focused
 - Table Tool https://itunes.apple.com/us/app/table-tool/id1122008420?mt=12
-- Alternatively, https://tablecruncher.com/
-
-
-
 
 ### Online
-
-
 - Google Drive for Mac
-
-- Homebrew (package manager for Mac)
-
 - iTerm2 (better Terminal)
-
+   - `wget https://iterm2.com/downloads/stable/latest`
+   - then move the extracted file to Applications
 - MacPass (opens KeePass files)
-
-- Quick Look Markdown (preview Markdown in Finder)
-
 - Spectacle (shortcuts for window sizing)
-
 - Karabiner (swap control with fn)
 
 ## Settings
-
+- VirtualBox: 
 ### Safari
-
 Show the entire URL (somewhere in the settings)
 
 
