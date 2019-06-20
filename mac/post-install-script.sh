@@ -59,3 +59,6 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME' $@
 config config --local status.showUntrackedFiles no
 config reset --hard
 touch ~/.private_aliases
+
+# show dotfiles in Finder
+defaults write com.apple.finder AppleShowAllFiles YES
