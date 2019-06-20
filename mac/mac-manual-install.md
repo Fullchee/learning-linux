@@ -10,6 +10,7 @@
 - [Google Drive for Mac](https://www.google.com/drive/download/)
 - iTerm2 (better Terminal)
    - `wget https://iterm2.com/downloads/stable/latest`
+   - Already in the `mac-post-install.sh`
    - then move the extracted file to Applications
 - [MacPass (opens KeePass files)](https://macpassapp.org/)
 - [Spectacle (shortcuts for window sizing)](https://www.spectacleapp.com/)
