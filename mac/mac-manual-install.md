@@ -4,6 +4,7 @@
 - MonoSnap
 - Be Focused
 - Table Tool https://itunes.apple.com/us/app/table-tool/id1122008420?mt=12
+- Todoist
 
 ### Online
 - Google Drive for Mac
