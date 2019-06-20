@@ -62,3 +62,7 @@ touch ~/.private_aliases
 
 # show dotfiles in Finder
 defaults write com.apple.finder AppleShowAllFiles YES
+
+# download iTerm
+wget https://iterm2.com/downloads/stable/latest
+
