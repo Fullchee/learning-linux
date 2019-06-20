@@ -29,7 +29,13 @@
    - Disable control left, control right (just use trackpad, inhibits actions on a VM)
       - Go to System Preferences > Keyboard > Shortcuts > Mission Control and change the settings for "Move left a space" and "Move right a space" or disable them completely.
 - Users & Groups -> `Login Items`
-
+- Trackpad
+   - Point & Click
+      - [Disable Dictionary Lookup](https://apple.stackexchange.com/questions/245592/el-capitan-how-to-disable-force-click-dictionary-pop-ups-in-chrome)
+   - Scroo & Zoom 
+      - Scroll Direction
+   - More Gestures
+      - App Expose
 ### Apps
 - Safari
    - Show the entire URL (somewhere in the settings)
