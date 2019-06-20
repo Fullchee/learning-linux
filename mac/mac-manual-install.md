@@ -15,10 +15,15 @@
 - [Spectacle (shortcuts for window sizing)](https://www.spectacleapp.com/)
 - [Karabiner (swap control with fn)](https://pqrs.org/osx/karabiner/)
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+
 ### Settings
-- Touchbar: Show Fn keys
-   - VirtualBox
-   - Microsoft Remote Desktop
+- Touchbar
+   - Show Fn keys
+      - VirtualBox
+      - Microsoft Remote Desktop
+   - Remove Mute and Siri buttons
+      - Preferences -> Extensions -> Touch Bar -> Customize Control Strip...
+   
 - Keyboard
    - Disable control left, control right (just use trackpad, inhibits actions on a VM)
       - Go to System Preferences > Keyboard > Shortcuts > Mission Control and change the settings for "Move left a space" and "Move right a space" or disable them completely.
