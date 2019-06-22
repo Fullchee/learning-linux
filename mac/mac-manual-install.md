@@ -51,3 +51,6 @@ Open with
 
 1. Install the App and place it in the `Applications` folder
 2. Hold `Option+CMD` and drag the application to toolbar
+
+### Notification Centre
+- bottom: click edit/New
