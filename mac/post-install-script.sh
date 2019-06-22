@@ -66,3 +66,12 @@ defaults write com.apple.finder AppleShowAllFiles YES
 # download iTerm
 wget https://iterm2.com/downloads/stable/latest
 
+
+# install my dotfiles after installing prezto
+git clone --bare https://github.com/Fullchee/mac-dotfiles.git $HOME/.cfg
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME' $@
+config config --local status.showUntrackedFiles no
+config reset --hard
+touch ~/.private_aliases
+config update-index --assume-unchanged ~/.npmrc  # don't want to accidentally add npm credentials
+
