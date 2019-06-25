@@ -45,13 +45,21 @@
    - `Cmd-Shift-P` and click on the command `Shell Command: Install 'code' command in PATH`
 
 ### Finder
-Open with 
+#### Open with 
 - [iTerm2](https://gist.github.com/jonschlinkert/7683131911c0cfd18d5cf8e818adffbc)\
 - VSCode
 - [Sublime](https://github.com/hamxiaoz/open-folder-with-sublime)
 
 1. Install the App and place it in the `Applications` folder
 2. Hold `Option+CMD` and drag the application to toolbar
+#### Default Programs
+How
+- Cmd I
+- Open With
+- Change All
+
+Extensions
+- .mp4
 
 ### Notification Centre
 - bottom: click edit/New
