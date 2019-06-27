@@ -99,6 +99,7 @@ sudo apt remove -y tomboy
 sudo apt-get remove -y gnome-screenshot # I use shutter instead, you can edit 
 sudo apt remove -y hexchat
 sudo apt remove -y thunderbird
+sudo apt remove -y gnome-calendar
 
 #sudo snap install slack --classic
 #sudo snap install docker circleci
