@@ -16,3 +16,7 @@ sublimetext3 ^
 visualstudiocode ^
 youtube-dl ^
 
+rem TODO: startup files
+rem shell:common startup in Run (cmd r)
+rem C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
+
