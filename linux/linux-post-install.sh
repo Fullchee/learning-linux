@@ -51,6 +51,7 @@ sudo apt-get -y install google-chrome-stable
 sudo apt-get -y install grive
 sudo apt-get -y install gnome-tweak-tool gnome-shell-extensions chrome-gnome-shell
 sudo apt-get -y install gnome-shell-pomodoro
+sudo apt-get -y install gnumeric
 sudo apt-get -y install grub-customizer
 sudo apt-get -y install gconf-editor
 sudo apt-get -y install guake
