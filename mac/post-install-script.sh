@@ -7,6 +7,7 @@ brew update
 brew install \
 cask \
 coreutils \
+fd \
 ffmpeg \
 jq \
 node \
