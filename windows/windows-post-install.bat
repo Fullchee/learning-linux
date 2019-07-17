@@ -15,7 +15,7 @@ procexp ^
 python ^
 sharex
 sublimetext3 ^
-visualstudiocode ^
+vscode ^
 youtube-dl ^
 
 rem TODO: startup files
