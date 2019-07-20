@@ -144,7 +144,7 @@ config update-index --assume-unchanged ~/.npmrc  # don't want to accidentally ad
 sudo chmod -x /usr/local/bin/yelp
 
 # note: for fkill, you may have to run sudo fkill
-npm install -g npm trash-cli tldr eslint npx write-good
+npm install -g npm tldr eslint write-good jest
 
 # disable the insert button
 xmodmap -e "keycode 118 ="
