@@ -63,3 +63,6 @@ Extensions
 
 ### Notification Centre
 - bottom: click edit/New
+
+### Dock
+https://apple.stackexchange.com/questions/207939/how-to-hide-a-specific-active-app-on-os-x-has-to-be-reversible
