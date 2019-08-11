@@ -41,6 +41,7 @@ sudo aptitude install winehq-stable
 - [ ] RescueTime https://www.rescuetime.com/download_linux
 	- [ ] login to Chrome extension
 - [ ] `im-config` and use xim (ibus, the default has the annoying ctrl shift e shortcut)
+   - [ ] then reset computer
 - [ ] Settings -> Sound -> Sounds -> Starting Cinnamon (disable)
 - [ ] [grive](https://github.com/vitalif/grive2) (run grive in ~/grive)
 - [ ] Printers
