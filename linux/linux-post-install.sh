@@ -46,6 +46,7 @@ sudo apt-get -y install at
 sudo apt-get -y install imagemagick
 sudo apt-get -y install fd-find
 sudo apt-get -y install convert
+sudo apt-get -y install dconf-editor
 sudo apt-get -y install gcc
 sudo apt-get -y install git
 sudo apt-get -y install google-chrome-stable
