@@ -14,6 +14,7 @@
 
 ## Notepad++
 * Default language to save: `Settings->Preferences->New Document->Default Language`
+* Settings -> Shortcut mapper (set Ctrl - r to Reload from Disk)
 
 ## Cmder
 TODO: add this to a windows dotfiles repo
