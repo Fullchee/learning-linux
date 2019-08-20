@@ -20,13 +20,14 @@ sudo aptitude install winehq-stable
 ```
 - [ ] Node.js
 	- [ ] npm global variables
-- [ ] Chrome Login and extensions
-- [ ] Firefox Login and credentials
+- [ ] Chrome Login
+- [ ] Firefox Login
 - [ ] Sublime Text and VSCode Sync (LastPass)
 - [ ] Git Repos
 - [ ] [Anki](https://apps.ankiweb.net/)
 	- [ ] [install all the plugins](https://gist.github.com/Fullchee/20d835b5d2d88eabc778f75f169015d2)
 - [ ] use numix theme
+- [ ] [Typora](https://typora.io/)
 - [ ] install printers and scanners
 - [ ] shutter
 	- [ ] enable print screen shortcut `shutter -s'
