@@ -17,6 +17,7 @@
 - [Karabiner (swap control with fn)](https://pqrs.org/osx/karabiner/)
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 - [VLC](https://www.videolan.org/vlc/download-macosx.html)
+- [Vanilla (hide menu bar items)](https://matthewpalmer.net/vanilla/)
 
 ### Settings
 - Touchbar
