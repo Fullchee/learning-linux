@@ -181,3 +181,22 @@ rm -f ./libgoocanvas3_1.0.0-1_amd64.deb
 wget https://launchpad.net/ubuntu/+archive/primary/+files/libgoo-canvas-perl_0.06-2ubuntu3_amd64.deb
 sudo apt install -y ./libgoo-canvas-perl_0.06-2ubuntu3_amd64.deb
 rm -f ./libgoo-canvas-perl_0.06-2ubuntu3_amd64.deb
+
+# firefox developer edition, TODO: update version
+sudo apt remove -y firefox
+wget https://download-installer.cdn.mozilla.net/pub/devedition/releases/70.0b3/linux-x86_64/en-US/firefox-70.0b3.tar.bz2
+tar -xvf firefox-*.tar.bz2
+sudo mv firefox /opt
+sudo ln -s /opt/firefox/firefox /usr/local/bin/firefox
+sudo touch /usr/share/applications/firefox-developer.desktop
+echo "[Desktop Entry]
+Name=Firefox Developer
+GenericName=Firefox Developer Edition
+Exec=/usr/local/bin/firefox
+Terminal=false
+Icon=/opt/firefox/browser/chrome/icons/default/default48.png
+Type=Application
+Categories=Application;Network;X-Developer;
+Comment=Firefox Developer Edition Web Browser" | sudo tee /usr/share/applications/firefox-developer.desktop
+sudo chmod +x /usr/share/applications/firefox-developer.desktop
+
