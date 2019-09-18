@@ -28,8 +28,15 @@
       - Preferences -> Extensions -> Touch Bar -> Customize Control Strip...
    
 - Keyboard
+   - Disable Shortcuts
    - Disable control left, control right (just use trackpad, inhibits actions on a VM)
-      - Go to System Preferences > Keyboard > Shortcuts > Mission Control and change the settings for "Move left a space" and "Move right a space" or disable them completely.
+      - Mission Control
+         - Mission Control
+         - App Window
+         - Mission Control
+      - Screenshots
+         - Save picture of touchbar
+      
    - Change the "Close" (Cmd - W) shortcut for Microsoft Remote Desktop
 - Users & Groups -> `Login Items`
 - Trackpad
