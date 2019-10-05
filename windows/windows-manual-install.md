@@ -26,3 +26,6 @@ add
 
 @cd /d "C:/YOUR_PREFERRED_FOLDER/"
 
+Notepad++
+Update silently when a file has been modified outside of N++
+https://superuser.com/questions/206226/stop-notepad-warning-if-file-has-been-modified-from-outside
