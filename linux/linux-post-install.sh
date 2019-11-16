@@ -108,14 +108,13 @@ sudo apt remove -y gnome-calendar
 #sudo snap connect circleci:docker docker
 
 # Install Anki
-# wget -c https://apps.ankiweb.net/downloads/current/anki-2.0.52-amd64.tar.bz2
-wget -c https://apps.ankiweb.net/downloads/archive/anki-2.0.52-amd64.tar.bz2
-tar -xjf anki-2.0.52-amd64.tar.bz2
-cd anki-2.0.52
+wget -c https://apps.ankiweb.net/downloads/current/anki-2.1.15-linux-amd64.tar.bz2
+tar -xjf anki-2.1.15-linux-amd64.tar.bz2
+cd anki-2.1.15-linux-amd64
 sudo make install
 cd ..
-rm -rf anki-2.0.52
-rm -f anki-2.0.52-amd64.tar.bz2
+rm -rf anki-2.1.15-linux-amd64
+rm -f anki-2.1.15-linux-amd64.tar.bz2
 
 git config --global user.email "fullchee@gmail.com"
 git config --global user.name "Fullchee Zhang"
