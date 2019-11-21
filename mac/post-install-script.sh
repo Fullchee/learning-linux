@@ -7,13 +7,11 @@ brew update
 brew install \
 cask \
 coreutils \
-fd \
 ffmpeg \
-jq \
 node \
 pandoc \
 peco \
-the_silver_surfer \
+the_silver_searcher \
 tree \
 yank \
 youtube-dl;
@@ -21,7 +19,6 @@ youtube-dl;
 # cask install
 brew cask install \
 meld \
-qlmarkdown \
 spectacle;
 
 # VPN Shortcut on the Menu Bar
@@ -40,19 +37,13 @@ rm -rf fonts
 # Path at the top of finder
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool true && killall Finder
 
-npm install -g browsersync \
+npm install -g \
 eslint \
-jsinspect \
-np \
 tldr \
-trash-cli \
-trymodule
+trash
 
 # Tell system when Xcode utilities live:
 sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer
-
-# Set "opendiff" as the default mergetool globally:
-git config --global merge.tool opendiff
 
 # install my dotfiles after installing prezto
 git clone --bare https://github.com/Fullchee/mac-dotfiles.git $HOME/.cfg
