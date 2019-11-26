@@ -37,10 +37,17 @@ rm -rf fonts
 # Path at the top of finder
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool true && killall Finder
 
-npm install -g \
+npm install -g npm \
 eslint \
+eslint-config-airbnb \
+eslint-plugin-import \
+eslint-plugin-jsx-a11y \
+eslint-plugin-react \
+jest \
 tldr \
-trash
+write-good
+
+npm install -g npm tldr eslint write-good jest eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
 
 # Tell system when Xcode utilities live:
 sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer
