@@ -34,6 +34,7 @@
          - Mission Control
       - Screenshots
          - Save picture of touchbar
+         - cmd shift 5 > options > Save to other location > Pictures
       
    - Change the "Close" (Cmd - W) shortcut for Microsoft Remote Desktop
 - Users & Groups -> `Login Items`
