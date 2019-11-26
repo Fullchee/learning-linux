@@ -9,6 +9,7 @@ f.lux ^
 git.install ^
 googledrive ^
 keepass.install ^
+nodejs-lts ^
 paint.net ^
 pip ^
 procexp ^
@@ -18,11 +19,15 @@ sublimetext3 ^
 vscode ^
 youtube-dl ^
 
-rem TODO: startup files
-rem shell:common startup in Run (cmd r)
-rem C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
-
-rem TODO: after installing cmder
+npm install -g npm \
+eslint \
+eslint-config-airbnb \
+eslint-plugin-import \
+eslint-plugin-jsx-a11y \
+eslint-plugin-react \
+jest \
+tldr \
+write-good
 
 # install my dotfiles after installing cmder (and git!)
 git clone --bare https://github.com/Fullchee/windows-dotfiles.git C:\.cfg
