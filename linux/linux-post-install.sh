@@ -1,4 +1,4 @@
-#!/bin/sh
+f#!/bin/sh
 
 # adding repos
 sudo add-apt-repository -y ppa:atareao/atareao
@@ -142,7 +142,6 @@ config update-index --assume-unchanged ~/.npmrc  # don't want to accidentally ad
 # Disable global Linux Mint help when pressing F1
 sudo chmod -x /usr/local/bin/yelp
 
-# note: for fkill, you may have to run sudo fkill
 npm install -g npm \
 eslint \
 eslint-config-airbnb \
