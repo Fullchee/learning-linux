@@ -47,8 +47,6 @@ jest \
 tldr \
 write-good
 
-npm install -g npm tldr eslint write-good jest eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
-
 # Tell system when Xcode utilities live:
 sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer
 
