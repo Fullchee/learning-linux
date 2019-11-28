@@ -34,3 +34,5 @@ git clone --bare https://github.com/Fullchee/windows-dotfiles.git C:\.cfg
 alias config=git --git-dir=C:\.cfg --work-tree=C:\ $*
 config config --local status.showUntrackedFiles no
 config reset --hard
+
+setx /M PATH "%PATH%;C:\Program Files (x86)\Notepad++"
