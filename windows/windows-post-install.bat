@@ -4,9 +4,11 @@ rem install choco first
 
 choco feature enable -n=allowGlobalConfirmation
 
-choco install cmder ^
+choco install 7zip ^
+cmder ^
 f.lux ^
 git.install ^
+googlechrome ^
 googledrive ^
 keepass.install ^
 nodejs-lts ^
