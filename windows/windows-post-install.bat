@@ -14,10 +14,10 @@ paint.net ^
 pip ^
 procexp ^
 python ^
-sharex
+sharex ^
 sublimetext3 ^
 vscode ^
-youtube-dl ^
+youtube-dl
 
 npm install -g npm \
 eslint \
