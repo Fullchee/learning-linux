@@ -38,6 +38,7 @@ rm -rf fonts
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool true && killall Finder
 
 npm install -g npm \
+babel-eslint \
 eslint \
 eslint-config-airbnb \
 eslint-plugin-import \
