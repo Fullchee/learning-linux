@@ -143,6 +143,7 @@ config update-index --assume-unchanged ~/.npmrc  # don't want to accidentally ad
 sudo chmod -x /usr/local/bin/yelp
 
 npm install -g npm \
+babel-eslint \
 eslint \
 eslint-config-airbnb \
 eslint-plugin-import \
