@@ -149,6 +149,7 @@ eslint-config-airbnb \
 eslint-plugin-import \
 eslint-plugin-jsx-a11y \
 eslint-plugin-react \
+eslint-plugin-react-hooks \
 jest \
 tldr \
 write-good
