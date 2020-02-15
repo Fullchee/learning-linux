@@ -1,6 +1,4 @@
-# LinuxChecklist.md
-
-# Setup
+# Steps
 - [ ] install anaconda3
 - [ ] zsh-scripts.sh
 - [ ] Play On Linux
