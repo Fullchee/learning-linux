@@ -42,6 +42,9 @@ curl -L https://cli-assets.heroku.com/apt/release.key | sudo apt-key add -
 wget -qO - https://typora.io/linux/public-key.asc | sudo apt-key add -
 echo -e "\ndeb https://typora.io/linux ./" | sudo tee -a /etc/apt/sources.list
 
+# node
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+
 sudo apt-get -y --force-yes update
 sudo apt-get -y --force-yes upgrade
 
