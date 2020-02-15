@@ -38,6 +38,10 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 sudo add-apt-repository "deb https://cli-assets.heroku.com/branches/stable/apt ./"
 curl -L https://cli-assets.heroku.com/apt/release.key | sudo apt-key add -
 
+# typora
+wget -qO - https://typora.io/linux/public-key.asc | sudo apt-key add -
+echo -e "\ndeb https://typora.io/linux ./" | sudo tee -a /etc/apt/sources.list
+
 sudo apt-get -y --force-yes update
 sudo apt-get -y --force-yes upgrade
 
@@ -78,6 +82,7 @@ sudo apt-get -y install texlive-full
 sudo apt-get -y install touchpad-indicator
 sudo apt-get -y install tlp
 sudo apt-get -y install tree # print the file structure
+sudo apt-get -y install typora
 sudo apt-get -y install vlc
 sudo apt-get -y install wine-stable
 sudo apt-get -y install xclip
