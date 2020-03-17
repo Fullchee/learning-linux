@@ -73,3 +73,7 @@ Extensions
 
 ### Dock
 https://apple.stackexchange.com/questions/207939/how-to-hide-a-specific-active-app-on-os-x-has-to-be-reversible
+
+Shut everything down at 11 PM
+1. `sudo crontab -e`
+2. * 23 * * * sudo shutdown -h now
