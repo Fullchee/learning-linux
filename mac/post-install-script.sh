@@ -13,6 +13,7 @@ pandoc \
 peco \
 the_silver_searcher \
 tree \
+wget \
 yank \
 youtube-dl;
 
