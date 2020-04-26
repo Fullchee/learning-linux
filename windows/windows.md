@@ -111,3 +111,7 @@ Kill the process given their PID
 EZBlocket (Block desktop Spotify ads)
 
 WizTree (Faster than WinDirStat)
+
+[Stop Windows Updates](https://www.majorgeeks.com/files/details/stopupdates10.html)
+
+[Disable Bing in Start search](https://www.howtogeek.com/224159/how-to-disable-bing-in-the-windows-10-start-menu/)
