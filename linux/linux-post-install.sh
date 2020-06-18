@@ -19,6 +19,7 @@ sudo add-apt-repository -y ppa:cpick/hub
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
 sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
+sudo wget https://vscode-update.azurewebsites.net/latest/linux-deb-x64/stable -O /tmp/code_latest_amd64.deb; sudo dpkg -i /tmp/code_latest_amd64.deb
 
 sudo apt install snapd -y
 
@@ -97,7 +98,6 @@ sudo apt-get -y install zip
 sudo apt-get -y install zsh
 sudo apt-get -y install zsh-doc
 sudo apt-get -y install apt-transport-https # for vscode
-sudo apt-get -y install code
 sudo apt-get -y install sqlitebrowser
 sudo apt-get -y install okular
 sudo apt-get -y install unetbootin
