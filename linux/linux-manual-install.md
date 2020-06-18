@@ -16,8 +16,6 @@ sudo dpkg --add-architecture i386
 sudo apt update
 sudo aptitude install winehq-stable
 ```
-- [ ] Node.js
-	- [ ] npm global variables
 - [ ] Chrome Login
 - [ ] Firefox Login
 - [ ] Sublime Text and VSCode Sync (LastPass)
