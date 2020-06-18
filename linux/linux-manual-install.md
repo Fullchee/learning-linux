@@ -23,7 +23,6 @@ sudo aptitude install winehq-stable
 - [ ] [Anki](https://apps.ankiweb.net/)
 	- [ ] [install all the plugins](https://gist.github.com/Fullchee/20d835b5d2d88eabc778f75f169015d2)
 - [ ] use numix theme
-- [ ] install printers and scanners
 - [ ] shutter
 	- [ ] enable print screen shortcut `shutter -s'
 - [ ] sudo crontab -e
